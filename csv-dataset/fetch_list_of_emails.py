@@ -7,6 +7,7 @@ import os.path
 import pprint
 import sys
 import time
+import csv
 from datetime import datetime
 
 import dateutil.parser as parser
@@ -52,25 +53,8 @@ def ReadEmailDetails(user_id):
     service = get_gmail_service()
 
     label_ids = GetLabelID(service, ["INBOX"]) #need to use the label ID not name.
-    unread_msgs = service.users().messages().list(userId=user_id,  maxResults=2, labelIds=label_ids, q='label:unread').execute()
-    #messages = unread_msgs.get('messages', [])
-
-    messages = []
-
-    if 'messages' in unread_msgs:
-        messages.extend(unread_msgs['messages'])
-
-    while 'nextPageToken' in unread_msgs:
-        page_token = unread_msgs['nextPageToken']
-
-        unread_msgs = service.users().messages().list(userId=user_id, labelIds=label_ids, pageToken=page_token, maxResults=4, q='label:unread').execute()
-        #unread_msgs = service.users().messages().list(userId=user_id, pageToken=page_token, maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
-
-        messages.extend(unread_msgs['messages'])
-
-        print('... total %d emails on next page [page token: %s], %d listed so far' % (
-            len(unread_msgs['messages']), page_token, len(messages)))
-        sys.stdout.flush()
+    unread_msgs = service.users().messages().list(userId=user_id,  maxResults=200, labelIds=label_ids, q='from:quincy@freecodecamp.org label:unread').execute()
+    messages = unread_msgs.get('messages', [])
 
     print ("Total unread messages in inbox: ", str(len(messages)))
     
@@ -105,8 +89,8 @@ def ReadEmailDetails(user_id):
                 if look['name'] == 'Date':
                     msg_date = look['value']
                     date_parse = (parser.parse(msg_date))
-                    m_date = (date_parse.date())
-                    email_dict['DateTime'] = m_date
+                    m_date = (date_parse.strftime("%Y/%m/%d %H:%M:%S %z %Z"))
+                    email_dict['DateTime'] = date_parse
 
             # The Body of the message is in Encrypted format. So, we have to decode it.
             # Get the data and decode it with base 64 decoder.
@@ -123,7 +107,8 @@ def ReadEmailDetails(user_id):
 
             # Printing the subject, sender's email and message
             #pprint.pprint(email_dict)
-            #print("Subject: ", subject)
+            print("Subject: ", subject)
+
 
 
         except Exception as e:
@@ -134,12 +119,14 @@ def ReadEmailDetails(user_id):
 
         # print(email_dict)
         final_list.append(email_dict) # This will create a dictonary item in the final list (list of email dictionaries)
-        print(final_list)
+        
 
         #mark the message as read
         #service.users().messages().modify(userId=user_id, id=msg['id'], body={ 'removeLabelIds': ['UNREAD']}).execute()
 
+    #print(final_list[0])
     print ("Total messaged retrived: ", str(len(final_list)))
+    return final_list
 
 def ListMessagesWithLabels(service):
 
@@ -147,7 +134,7 @@ def ListMessagesWithLabels(service):
     label_ids = GetLabelID(service, ["INBOX"]) #need to use the label ID not name.
 
     try:
-        unread_msgs = service.users().messages().list(userId=user_id,  maxResults=4, labelIds=label_ids, q='label:unread').execute()
+        unread_msgs = service.users().messages().list(userId=user_id,  maxResults=200, labelIds=label_ids, q='from:quincy@freecodecamp.org label:unread').execute()
         #unread_msgs = service.users().messages().list(userId=user_id,  maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
 
         # print(unread_msgs)
@@ -161,7 +148,7 @@ def ListMessagesWithLabels(service):
         while 'nextPageToken' in unread_msgs:
             page_token = unread_msgs['nextPageToken']
 
-            unread_msgs = service.users().messages().list(userId=user_id, labelIds=label_ids, pageToken=page_token, maxResults=4, q='label:unread').execute()
+            unread_msgs = service.users().messages().list(userId=user_id, labelIds=label_ids, pageToken=page_token, maxResults=200, q='label:unread').execute()
             #unread_msgs = service.users().messages().list(userId=user_id, pageToken=page_token, maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
 
             messages.extend(unread_msgs['messages'])
@@ -206,16 +193,10 @@ if __name__ == '__main__':
 
     save_email = ReadEmailDetails(user_id)
 
-    #GetLabels(GMAIL)
-    # labelIDs = GetLabelID(GMAIL, ["SEGP", "INBOX"])
-    # print(labelIDs)
-    
-    
-    # email_list = ListMessagesWithLabels(GMAIL)
-    # print(email_list)
-
-
-    # for email in email_list:
-    #     #print(email['id'])
-    #     # get id of individual message
-    #     email_dict = ReadEmailDetails(user_id, str(email['id']))
+    #exporting the values as .csv
+    with open('csv-dataset/custom_email_dataset.csv', 'w', encoding='utf-8', newline = '') as csvfile: 
+        fieldnames = ['DateTime','From','To','Subject','Message_body']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter = ',')
+        writer.writeheader()
+        for val in save_email:
+            writer.writerow(val)

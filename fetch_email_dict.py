@@ -79,7 +79,7 @@ def ReadEmailDetails(user_id,msg_id):
             if look['name'] == 'Date':
                 msg_date = look['value']
                 date_parse = (parser.parse(msg_date))
-                m_date = (date_parse.date())
+                m_date = (date_parse.strftime("%Y/%m/%d %H:%M:%S %z %Z"))
                 email_dict['DateTime'] = m_date
 
         # The Body of the message is in Encrypted format. So, we have to decode it.
