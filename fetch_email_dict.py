@@ -1,3 +1,5 @@
+## This code returns each email dictionary.
+
 from __future__ import print_function
 
 import base64
@@ -42,11 +44,10 @@ def get_gmail_service():
             token.write(creds.to_json())
 
     service = build('gmail', 'v1', credentials=creds)
-    #service = discovery.build('gmail', 'v1', http=creds.authorize(Http()))
     return service
 
 
-def ReadEmailDetails(user_id, msg_id):
+def ReadEmailDetails(user_id,msg_id):
 
     service = get_gmail_service()
 
@@ -56,9 +57,9 @@ def ReadEmailDetails(user_id, msg_id):
     try:
         
         # Get value of 'payload' from dictionary 'txt'
-        message = service.users().messages().get(userId=user_id, id=msg_id).execute()  # fetch the message using API
+        content = service.users().messages().get(userId=user_id, id=msg_id).execute()  # fetch the message using API
 
-        payload = message['payload']
+        payload = content['payload']
         headers = payload['headers']
 
         # Look for Subject, Receiver Email, Sender Email, Date in the headers
@@ -83,34 +84,29 @@ def ReadEmailDetails(user_id, msg_id):
 
         # The Body of the message is in Encrypted format. So, we have to decode it.
         # Get the data and decode it with base 64 decoder.
-        parts = payload.get('parts')[0]
-        data = parts['body']['data']
+        data = payload['body']['data']
         # decoding from Base64 to UTF-8
         data = data.replace("-", "+").replace("_", "/")
         decoded_data = base64.b64decode(bytes(data, 'UTF-8'))
 
-        # Now, the data obtained is in lxml. So, we will parse
-        # it with BeautifulSoup library
+        # Now, the data obtained is in lxml. So, we will parse it with BeautifulSoup library
         soup = BeautifulSoup(decoded_data, "lxml")
         body = soup.body()
         email_dict['Message_body'] = body
 
-        # Printing the subject, sender's email and message
-        #pprint.pprint(email_dict)
-        print("Subject: ", subject)
-
-        #mark the message as read
-        service.users().messages().modify(userId=user_id, id=msg_id, body={ 'removeLabelIds': ['UNREAD']}).execute()
-
 
     except Exception as e:
         print(e)
-        temp_dict = None
+        email_dict = None
         pass
+    
 
     finally:
+        pprint.pprint(email_dict)
         return email_dict
-
+        
+    #mark the message as read
+    #service.users().messages().modify(userId=user_id, id=msg['id'], body={ 'removeLabelIds': ['UNREAD']}).execute()
 
 
 def ListMessagesWithLabels(service):
@@ -119,11 +115,12 @@ def ListMessagesWithLabels(service):
     label_ids = GetLabelID(service, ["INBOX"]) #need to use the label ID not name.
 
     try:
-        unread_msgs = service.users().messages().list(userId=user_id,  maxResults=4, labelIds=label_ids, q='label:unread').execute()
-        #unread_msgs = service.users().messages().list(userId=user_id,  maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
+        unread_msgs = service.users().messages().list(userId=user_id,  maxResults=2, labelIds=label_ids, q='label:unread').execute()
 
         # print(unread_msgs)
         
+        messages = unread_msgs.get('messages', [])
+
         messages = []
         if 'messages' in unread_msgs:
             messages.extend(unread_msgs['messages'])
@@ -132,12 +129,10 @@ def ListMessagesWithLabels(service):
             page_token = unread_msgs['nextPageToken']
 
             unread_msgs = service.users().messages().list(userId=user_id, labelIds=label_ids, pageToken=page_token, maxResults=4, q='label:unread').execute()
-            #unread_msgs = service.users().messages().list(userId=user_id, pageToken=page_token, maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
 
             messages.extend(unread_msgs['messages'])
 
-            print('... total %d emails on next page [page token: %s], %d listed so far' % (
-                len(unread_msgs['messages']), page_token, len(messages)))
+            print('... total %d emails on next page [page token: %s], %d listed so far' % (len(unread_msgs['messages']), page_token, len(messages)))
             sys.stdout.flush()
 
         print ("Total unread messages in inbox: ", str(len(messages)))
@@ -171,13 +166,13 @@ def GetLabelID(service, LabelName):
 if __name__ == '__main__':
     
     GMAIL = get_gmail_service()
+
     #GetLabels(GMAIL)
     # labelIDs = GetLabelID(GMAIL, ["SEGP", "INBOX"])
     # print(labelIDs)
     
     email_list = ListMessagesWithLabels(GMAIL)
-    #print(email_list)
 
     for email in email_list:
-        msg_id = email['threadId']  # get id of individual message
-        email_dict = ReadEmailDetails(user_id, msg_id)
+        # get content of individual message from its id
+        email_dict = ReadEmailDetails(user_id, str(email['id']))
