@@ -1,86 +1,93 @@
-import os
-import pathlib
+from __future__ import print_function
 
-import google.auth.transport.requests
-import requests
-from flask import Flask, abort, redirect, request, session
-from google.oauth2 import id_token
-from google_auth_oauthlib.flow import Flow
-from pip._vendor import cachecontrol
+import base64
+import os.path
+import pprint
 
-app = Flask("Intelligent Email Archive")
-app.secret_key = "intelligent-email-app"
+from bs4 import BeautifulSoup
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
 
-os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
-GOOGLE_CLIENT_ID = "762564498507-gffp48vk20vsnbpjmoo47177j5avjt86.apps.googleusercontent.com"
-client_secrets_file = os.path.join(pathlib.Path(__file__).parent, "client_secret.json")
+def get_gmail_service():
+    # If modifying these scopes, delete the file token.json.
+    SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
-#flow holds the information about how we want to authorise out users
-flow = Flow.from_client_secrets_file(
-    client_secrets_file=client_secrets_file,
-    scopes = ["https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email", "openid", "https://mail.google.com/", "https://www.googleapis.com/auth/gmail.labels", "https://www.googleapis.com/auth/gmail.metadata", "https://www.googleapis.com/auth/gmail.modify", "https://www.googleapis.com/auth/gmail.readonly"],
-    redirect_uri="http://127.0.0.1:5000/callback"    
-            )
-
-def login_is_required(function):
-    def wrapper(*args, **kwargs):
-        
-        if "google_id" not in session:
-            return abort(401) #Authorization required
+    creds = None
+    # The file token.json stores the user's access and refresh tokens, and is
+    # created automatically when the authorization flow completes for the first time.
+    if os.path.exists('./google-auth/token.json'):
+        creds = Credentials.from_authorized_user_file('./google-auth/token.json', SCOPES)
+    # If there are no (valid) credentials available, let the user log in.
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
         else:
-            return function()
+            flow = InstalledAppFlow.from_client_secrets_file(
+                './google-auth/credentials.json', SCOPES)
+            creds = flow.run_local_server(port=0)
+        # Save the credentials for the next run
+        with open('./google-auth/token.json', 'w') as token:
+            token.write(creds.to_json())
 
-    return wrapper
-
-#redirect user to google consent screen
-@app.route("/login")
-def login():
-    #directing the user to the google consent screen using the flow functon we defined above
-    authorization_url, state = flow.authorization_url()
-    session["state"] = state #checking if state we initially created and the state returned are the same, to ensure no third party hooked on to our request.
-    return redirect(authorization_url)
-
-#receive data from google endpoint
-@app.route("/callback")
-def callback():
-    flow.fetch_token(authorization_response=request.url)
-
-    if not session["state"] == request.args["state"]:
-        abort(500) #state does not match, hence abort (protecting app from cross-site attacks)
-
-    credentials = flow.credentials
-    request_session = requests.session()
-    cached_session = cachecontrol.CacheControl(request_session)
-    token_request = google.auth.transport.requests.Request(session=cached_session)
-
-    id_info = id_token.verify_oauth2_token(
-        id_token=credentials._id_token,
-        request=token_request,
-        audience=GOOGLE_CLIENT_ID
-    )
-
-    session["google_id"] = id_info.get("sub")
-    session["name"] = id_info.get("name")
-    return redirect("/protected_area")
-
-#clear local session from our user
-@app.route("/logout")
-def logout():
-    session.clear()
-    return redirect("/")
-
-#index page
-@app.route("/")
-def index():
-    return "Hello World <a href='/login'><button>Login</button></a>"
-
-# this page only shown if user is logged in
-@app.route("/protected_area")
-@login_is_required
-def protected_area():
-    return "Protected! <a href='/logout'><button>Logout</button></a>"
+    service = build('gmail', 'v1', credentials=creds)
+    return service
 
 
-if __name__ == "__main__":
-    app.run(debug = True)
+def get_emails():
+
+    service = get_gmail_service()
+
+# request a list of all the messages
+    result = service.users().messages().list(userId='me', maxResults=4).execute()
+  
+    messages = result.get('messages', [])
+  
+    # messages is a list of dictionaries where each dictionary contains a message id. iterate through all the messages
+    for msg in messages:
+        # Get the message from its id
+        txt = service.users().messages().get(userId='me', id=msg['id']).execute()
+
+        # Use try-except to avoid any Errors
+        try:
+            # Get value of 'payload' from dictionary 'txt'
+            payload = txt['payload']
+            headers = payload['headers']
+  
+            # Look for Subject and Sender Email in the headers
+            for d in headers:
+                if d['name'] == 'Subject':
+                    subject = d['value']
+                if d['name'] == 'From':
+                    sender = d['value']
+  
+            # The Body of the message is in Encrypted format. So, we have to decode it.
+            # Get the data and decode it with base 64 decoder.
+            parts = payload.get('parts')[0]
+            data = parts['body']['data']
+            data = data.replace("-","+").replace("_","/") # decoding from Base64 to UTF-8
+            decoded_data = base64.b64decode(bytes(data, 'UTF-8'))
+  
+            # Now, the data obtained is in lxml. So, we will parse 
+            # it with BeautifulSoup library
+            soup = BeautifulSoup(decoded_data , "lxml")
+            body = soup.body()
+  
+            # Printing the subject, sender's email and message
+            print("Subject: ", subject)
+            print("From: ", sender)
+            print("Message: ", body)
+            print('\n')
+        except Exception as e:
+            print(e)
+            # temp_dict = None
+            pass
+
+
+if __name__ == '__main__':
+    get_emails()
+    # for message in messages:
+    #     print(message['id'])
+    # pprint.pprint(get_email_content('178dc5703daccaf2'))
