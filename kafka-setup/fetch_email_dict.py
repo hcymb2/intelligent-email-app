@@ -18,9 +18,13 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from httplib2 import Http
 
+# import email_inbox_observer
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 user_id = "me"
+
+
+
 
 
 def get_gmail_service():
@@ -107,10 +111,11 @@ def ReadEmailDetails(user_id, msg_id):
 
     finally:
         pprint.pprint(email_dict)
-        return email_dict
+        
+            # mark the message as read
+        service.users().messages().modify(userId=user_id, id=msg_id, body={ 'removeLabelIds': ['UNREAD']}).execute()
 
-    # mark the message as read
-    # service.users().messages().modify(userId=user_id, id=msg['id'], body={ 'removeLabelIds': ['UNREAD']}).execute()
+        return email_dict
 
 
 def ListMessagesWithLabels(labels):
@@ -172,8 +177,19 @@ def get_emails(labels):
     return final_list
 
 
+def count_unread_emails(labels):
+    unread_messages = ListMessagesWithLabels(labels)
+    return len(unread_messages)
+
+
+
+
 if __name__ == "__main__":
     pass
     # GetLabels(GMAIL)
     # labelIDs = GetLabelID(["SEGP", "INBOX"])
     # print(labelIDs)
+
+
+
+    

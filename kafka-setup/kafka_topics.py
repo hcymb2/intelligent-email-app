@@ -36,6 +36,24 @@ def create_topic(client, topic_name):
             print(f"failed to create topic {topic_name}: {e}")
 
 
+def call_create_topic(client, topics):
+    """checks if topic exists, if doesn't, it calls create topics function
+    
+    Parameters:
+    ----------
+    topics : list of topics
+
+    """
+    for topic_name in topics:
+        exists = topic_exists(client, topic_name)
+        print(f"Topic {topic_name} exists: {exists}")
+
+        if exists is False:
+            create_topic(client, topic_name)
+        else:
+            print("Topic already exists")
+
+
 def delete_topics(a, topics):
     """delete topics
 

@@ -4,18 +4,14 @@ import uuid
 from time import sleep
 
 from confluent_kafka import Consumer, Producer
-from confluent_kafka.admin import AdminClient
-from fetch_email_dict import get_emails
 
-from kafka_topics import create_topic, topic_exists
+
 
 BROKER_URL = "PLAINTEXT://localhost:9092"
-client = AdminClient({"bootstrap.servers": BROKER_URL})
 
-### poll GMAIL repeatedly
-messages = get_emails("INBOX")
 
-def producer():
+
+def producer(messages):
     p = Producer({"bootstrap.servers": BROKER_URL})
 
     def delivery_report(err, msg):
@@ -68,32 +64,7 @@ def consumer():
 
 
 
-def call_create_topic(topics):
-    """checks if topic exists, if doesn't, it calls create topics function
-    
-    Parameters:
-    ----------
-    topics : list of topics
-
-    """
-    for topic_name in topics:
-        exists = topic_exists(client, topic_name)
-        print(f"Topic {topic_name} exists: {exists}")
-
-        if exists is False:
-            create_topic(client, topic_name)
-        else:
-            print("Topic already exists")
-            
-
-
-def main():
-    """Checks for topic and creates the topic if it does not exist"""
-
-    
-
-    topics = ['app-messages', 'retrain']
-    call_create_topic(topics)
+#def main():
 
     # threads = []
     # t = threading.Thread(target=producer)
@@ -103,9 +74,8 @@ def main():
     # t.start()
     # t2.start()
 
-    producer()
-    consumer()
-
+    #producer()
+    #consumer()
 
 if __name__ == "__main__":
-    main()
+    pass
