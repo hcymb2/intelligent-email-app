@@ -1,0 +1,66 @@
+##WHEN USED THREADS TO TIME PRODUCER/CONSUMER - OUTPUT SEEMED TO HAVE ERRORS.
+
+ ** CONSUMER: Received message: {'request_id': 'e66bf592-3c49-43b6-9023-b5eC', 'Sender': 'Quincy Larson <quincy@freecodecamp.org>', 'Receiver': 'malvihms [free 6-hour coding course]', 'Message_body': [<p>Here are this week's 
+
+1. This course will teach you fundamental data structures like arrays and lmmon algorithms like Merge Sort and Quicksort. (6 hour YouTube course): httfree-treehouse-course/
+
+2. Learn how to implement your own secure sign-in for your web development y. You'll learn about HTTP headers, cookies, public key cryptography, and Jamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-pass
+
+3. This week I went on the Changelog, a major open source podcast. The hostity behind it, and our upcoming Data Science curriculum expansion. (1 hour view-changelog-podcast/
+
+4. TypeScript is a statically-typed version of JavaScript. A lot of develop code. By the end of this crash course, you'll understand TypeScript's key  https://www.freecodecamp.org/news/learn-typescript-with-this-crash-course/
+
+5. How to get started with Git, the world's most popular version control synderstanding of how Git tracks changes. You'll also get to try out some Gits/what-is-git-learn-git-version-control/
+
+This week marks the 5-year anniversary of these "5 links worth your time" e
+https://www.freecodecamp.org/news/quincy-larson-5-links-worth-your-time-ema
+
+Also, this week our data science curriculum fundraiser hit a new milestone:Quote of the Week: “The fastest algorithm can frequently be replaced by one that is almost as fast and much easier to understand.” – Douglas W. Jones 
+
+
+Happy coding.
+
+- Quincy Larson
+
+Teacher at https://www.freecodecamp.org
+I share useful things on Twitter at https://www.twitter.com/ossia
+
+If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
+</p>]}}
+
+
+
+
+##WITHOUT USING THREADS, IT GIVES CORRECT OUTPUT.
+
+
+ ** CONSUMER: Received message: {'request_id': '0b627002-7b3c-4d26-93e5-a616eb8dde4b', 'data': {'DateTime': '2021/03/19 17:27:22 +0000 UTC', 'Sender': 'Quincy Larson <quincy@freecodecamp.org>', 'Receiver': 'malvisbid@gmail.com', 'Subject': 'Learn Data Structures and Algorithms [free 6-hour coding course]', 'Message_body': 
+[<p>Here are this week's five links that are worth your time:
+
+1. This course will teach you fundamental data structures like arrays and linked lists. You'll then use these data structures to build common algorithms like Merge Sort and Quicksort. (6 hour YouTube course): https://www.freecodecamp.org/news/algorithms-and-data-structures-free-treehouse-course/
+
+2. Learn how to implement your own secure sign-in for your web development projects using JavaScript, Node.js, and the Passport.js library. You'll learn about HTTP headers, cookies, public key cryptography, and JSON Web Tokens. (6 hour YouTube course): https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js/
+
+3. This week I went on the Changelog, a major open source podcast. The hosts interviewed me about the history of freeCodeCamp, the community behind it, and our upcoming Data Science curriculum expansion. (1 hour listen): https://www.freecodecamp.org/news/quincy-larson-interview-changelog-podcast/
+
+4. TypeScript is a statically-typed version of JavaScript. A lot of developers prefer it because it can reduce the number of bugs in your code. By the end of this crash course, you'll understand TypeScript's key features and how to leverage them. (90 minute YouTube course): https://www.freecodecamp.org/news/learn-typescript-with-this-crash-course/
+
+5. How to get started with Git, the world's most popular version control system. You'll learn common Git commands and gain a conceptual understanding of how Git tracks changes. You'll also get to try out some Git workflows. (15 minute read): https://www.freecodecamp.org/news/what-is-git-learn-git-version-control/
+
+This week marks the 5-year anniversary of these "5 links worth your time" emails. You can browse all of my past emails in a single page: https://www.freecodecamp.org/news/quincy-larson-5-links-worth-your-time-email-full-list/
+
+Also, this week our data science curriculum fundraiser hit a new milestone: 1,500 individual donors. Learn more about the new math and machine learning courses we're designing and how to get involved: https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/
+
+
+Quote of the Week: “The fastest algorithm can frequently be replaced by one that is almost as fast and much easier to understand.” – Douglas W. Jones
+
+
+Happy coding.
+
+- Quincy Larson
+
+Teacher at https://www.freecodecamp.org
+I share useful things on Twitter at https://www.twitter.com/ossia
+
+If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
+</p>]}}

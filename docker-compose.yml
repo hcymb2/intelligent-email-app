@@ -83,7 +83,7 @@ services:
     # when running this offline, spin up the stack once and then run : 
     #   docker cp kafka-connect:/usr/share/confluent-hub-components ./data/connect-jars
     volumes:
-      - $PWD/data:/data
+      - ./data:/data
     # In the command section, $ are replaced with $$ to avoid the error 'Invalid interpolation format for "command" option'
     command:
       - bash
