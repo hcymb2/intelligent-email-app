@@ -1,17 +1,18 @@
 import json
 import threading
+import time
 import uuid
-from time import sleep
 
+import schedule
 from confluent_kafka import Consumer, Producer
 
-
+from fetch_email_dict import count_unread_emails, get_emails
+from kafka_topics import call_create_topic
 
 BROKER_URL = "PLAINTEXT://localhost:9092"
 
 
-
-def producer(messages):
+def producer(email_list):
     p = Producer({"bootstrap.servers": BROKER_URL})
 
     def delivery_report(err, msg):
@@ -20,19 +21,21 @@ def producer(messages):
         if err is not None:
             print("Message delivery failed: {}".format(err))
         else:
-            print("Message delivered to {} [{}]".format(msg.topic(), msg.partition()))
+            print("\033[1;32;40mMessage delivered to {} [{}] \033[0;0m".format(msg.topic(), msg.partition()))
 
-    for data in messages:
+    for data in email_list:
+        print('reached here')
+        print(data)
+
         # Trigger any available delivery report callbacks from previous produce() calls
         p.poll(0)
 
         message_id = str(uuid.uuid4())
-        message = {'request_id': message_id, 'data': data}
+        data["Request_id"] = message_id
 
         # Asynchronously produce a message, the delivery report callback will be triggered from poll() above, or flush() below, when the message has been successfully delivered or failed permanently.
-        p.produce('app-messages', value=str(message), on_delivery=delivery_report)
-        print("\033[1;31;40m -- PRODUCER: Sent message with id {}".format(message_id))
-        sleep(2)
+        p.produce("app-messages", value=bytes(str(data), "UTF-8"), on_delivery=delivery_report)
+        print("\033[1;36;40m -- PRODUCER: Sent message with id {} \033[0;0m".format(message_id))
 
     # Wait for any outstanding messages to be delivered and delivery report callbacks to be triggered.
     p.flush()
@@ -40,13 +43,15 @@ def producer(messages):
 
 def consumer():
 
-    c = Consumer({
-        'bootstrap.servers': BROKER_URL,
-        'group.id': 'email-categorisation',
-        'auto.offset.reset': 'earliest'
-    })
+    c = Consumer(
+        {
+            "bootstrap.servers": BROKER_URL,
+            "group.id": "email-categorisation",
+            "auto.offset.reset": "earliest",
+        }
+    )
 
-    c.subscribe(['app-messages'])
+    c.subscribe(["app-messages"])
 
     while True:
         msg = c.poll(1.0)
@@ -57,25 +62,46 @@ def consumer():
             print("Consumer error: {}".format(msg.error()))
             continue
 
-        #print('Received message: {}'.format(msg.value().decode('utf-8')))
-        print("\033[1;32;40m ** CONSUMER: Received message: {}".format(msg.value().decode('utf-8')))
+        # print('Received message: {}'.format(msg.value().decode('utf-8')))
+        print(
+            "\033[1;32;40m ** CONSUMER: Received message: {}".format(
+                msg.value().decode("utf-8")
+            )
+        )
 
     c.close()
 
 
+def check_inbox():
+    num_unread_msgs = count_unread_emails(["INBOX"])
 
-#def main():
+    while num_unread_msgs != 0:
+        messages = get_emails(["INBOX"])
+        producer(messages)
+        num_unread_msgs = count_unread_emails(["INBOX"])
 
-    # threads = []
-    # t = threading.Thread(target=producer)
-    # t2 = threading.Thread(target=consumer)
-    # threads.append(t)
-    # threads.append(t2)
-    # t.start()
-    # t2.start()
+messages = get_emails(["INBOX"])
+producer(messages)
 
-    #producer()
-    #consumer()
+schedule.every(2).minutes.do(check_inbox)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+
+# def main():
+
+# threads = []
+# t = threading.Thread(target=producer)
+# t2 = threading.Thread(target=consumer)
+# threads.append(t)
+# threads.append(t2)
+# t.start()
+# t2.start()
+
+# producer()
+# consumer()
 
 if __name__ == "__main__":
-    pass
+    topics = ["app-messages", "retrain"]
+    call_create_topic(client, topics)

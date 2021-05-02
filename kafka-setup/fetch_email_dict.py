@@ -18,13 +18,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from httplib2 import Http
 
-# import email_inbox_observer
-
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 user_id = "me"
-
-
-
 
 
 def get_gmail_service():
@@ -80,17 +75,17 @@ def ReadEmailDetails(user_id, msg_id):
 
             if look["name"] == "To":
                 receiver = look["value"]
-                email_dict["Receiver"] = receiver
+                email_dict["To"] = receiver
 
             if look["name"] == "From":
                 sender = look["value"]
-                email_dict["Sender"] = sender
+                email_dict["From"] = sender
 
             if look["name"] == "Date":
                 msg_date = look["value"]
                 date_parse = parser.parse(msg_date)
                 m_date = date_parse.strftime("%Y/%m/%d %H:%M:%S %z %Z")
-                email_dict["DateTime"] = m_date
+                email_dict["Date_time"] = m_date
 
         # The Body of the message is in Encrypted format. So, we have to decode it.
         # Get the data and decode it with base 64 decoder.
@@ -105,17 +100,19 @@ def ReadEmailDetails(user_id, msg_id):
         email_dict["Message_body"] = body
 
     except Exception as e:
-        print(e)
+        print(f"Exception occured {e}")
         email_dict = None
-        pass
 
     finally:
-        pprint.pprint(email_dict)
-        
-            # mark the message as read
-        service.users().messages().modify(userId=user_id, id=msg_id, body={ 'removeLabelIds': ['UNREAD']}).execute()
+        # mark the message as read
+        service.users().messages().modify(
+            userId=user_id, id=msg_id, body={"removeLabelIds": ["UNREAD"]}
+        ).execute()
 
         return email_dict
+        #pprint.pprint(email_dict)
+
+        
 
 
 def ListMessagesWithLabels(labels):
@@ -172,8 +169,14 @@ def get_emails(labels):
     for email in email_list:
         # get content of individual message from its id
         email_dict = ReadEmailDetails(user_id, str(email["id"]))
+
+        if email_dict is None:
+            continue
+
         final_list.append(email_dict)
 
+    print(f"Total unread messages retrieved: {len(final_list)}")
+    pprint.pprint(final_list)
     return final_list
 
 
@@ -182,14 +185,8 @@ def count_unread_emails(labels):
     return len(unread_messages)
 
 
-
-
 if __name__ == "__main__":
     pass
     # GetLabels(GMAIL)
     # labelIDs = GetLabelID(["SEGP", "INBOX"])
     # print(labelIDs)
-
-
-
-    
