@@ -110,9 +110,7 @@ def ReadEmailDetails(user_id, msg_id):
         ).execute()
 
         return email_dict
-        #pprint.pprint(email_dict)
-
-        
+        # pprint.pprint(email_dict)
 
 
 def ListMessagesWithLabels(labels):
@@ -176,7 +174,7 @@ def get_emails(labels):
         final_list.append(email_dict)
 
     print(f"Total unread messages retrieved: {len(final_list)}")
-    pprint.pprint(final_list)
+    # pprint.pprint(final_list)
     return final_list
 
 

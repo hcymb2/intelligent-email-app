@@ -53,6 +53,7 @@ def ReadEmailDetails(user_id):
     service = get_gmail_service()
 
     label_ids = GetLabelID(service, ["INBOX"]) #need to use the label ID not name.
+    
     unread_msgs = service.users().messages().list(userId=user_id,  maxResults=200, labelIds=label_ids, q='from:quincy@freecodecamp.org label:unread').execute()
     messages = unread_msgs.get('messages', [])
 
@@ -127,43 +128,6 @@ def ReadEmailDetails(user_id):
     #print(final_list[0])
     print ("Total messaged retrived: ", str(len(final_list)))
     return final_list
-
-def ListMessagesWithLabels(service):
-
-    
-    label_ids = GetLabelID(service, ["INBOX"]) #need to use the label ID not name.
-
-    try:
-        unread_msgs = service.users().messages().list(userId=user_id,  maxResults=200, labelIds=label_ids, q='from:quincy@freecodecamp.org label:unread').execute()
-        #unread_msgs = service.users().messages().list(userId=user_id,  maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
-
-        # print(unread_msgs)
-        
-        messages = unread_msgs.get('messages', [])
-
-        messages = []
-        if 'messages' in unread_msgs:
-            messages.extend(unread_msgs['messages'])
-
-        while 'nextPageToken' in unread_msgs:
-            page_token = unread_msgs['nextPageToken']
-
-            unread_msgs = service.users().messages().list(userId=user_id, labelIds=label_ids, pageToken=page_token, maxResults=200, q='label:unread').execute()
-            #unread_msgs = service.users().messages().list(userId=user_id, pageToken=page_token, maxResults=3, q='from:thomas@collegeinfogeek.com label:unread').execute()
-
-            messages.extend(unread_msgs['messages'])
-
-            print('... total %d emails on next page [page token: %s], %d listed so far' % (
-                len(unread_msgs['messages']), page_token, len(messages)))
-            sys.stdout.flush()
-
-        print ("Total unread messages in inbox: ", str(len(messages)))
-        return messages
-
-    except HttpError as error:
-        print('An error occurred: %s' % error)
-
-    return {}
     
 
 def GetLabelID(service, LabelName):

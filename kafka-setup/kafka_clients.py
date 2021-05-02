@@ -89,19 +89,6 @@ while True:
     schedule.run_pending()
     time.sleep(1)
 
-# def main():
-
-# threads = []
-# t = threading.Thread(target=producer)
-# t2 = threading.Thread(target=consumer)
-# threads.append(t)
-# threads.append(t2)
-# t.start()
-# t2.start()
-
-# producer()
-# consumer()
-
 if __name__ == "__main__":
     topics = ["app-messages", "retrain"]
     call_create_topic(client, topics)
