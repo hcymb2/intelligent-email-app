@@ -91,8 +91,9 @@ services:
       - bash
       - -c
       - |
-        echo "Installing Connector"
+        echo "Installing Connectors"
         confluent-hub install --no-prompt jcustenborder/kafka-connect-email:latest
+        confluent-hub install --no-prompt hpgrahsl/kafka-connect-mongodb:1.4.0
         #
         echo "Launching Kafka Connect worker"
         /etc/confluent/docker/run &
