@@ -96,9 +96,12 @@ def ReadEmailDetails(user_id, msg_id):
 
         # Now, the data obtained is in lxml. So, we will parse it with BeautifulSoup library
         soup = BeautifulSoup(decoded_data, "lxml")
-        body = soup.body()
+        body = soup.find('p').getText()
+        #body = soup.body()
         email_dict["Message_body"] = body
-
+        
+        print(type(body))
+        print(body)
     except Exception as e:
         print(f"Exception occured {e}")
         email_dict = None
