@@ -1,0 +1,63 @@
+{'bcc': [],
+ 'cc': [],
+ 'contentType': 'multipart/MIXED; boundary=00000000000044b67b05bfdb143b',
+ 'from': ['malvisbid@gmail.com'],
+ 'htmlBody': '<div dir="ltr"><font face="arial, sans-serif" '
+             'color="#000000"><span style="font-size:10px">One morning, when '
+             'Gregor Samsa woke from troubled dreams, he found himself '
+             'transformed in his bed into a horrible vermin. He lay on his '
+             'armour-like back, and if he lifted his head a little he could '
+             'see his brown belly, slightly domed and divided by arches into '
+             'stiff sections. The bedding was hardly able to cover it and '
+             'seemed ready to slide off any moment. His many legs, pitifully '
+             'thin compared with the size of the rest of him, waved about '
+             'helplessly as he looked. &quot;What&#39;s happened to me?&quot; '
+             'he thought. It wasn&#39;t a dream. His room, a proper human room '
+             'although a little too small, lay peacefully between its four '
+             'familiar walls. A collection of textile samples lay spread out '
+             'on the table - Samsa was a travelling salesman - and above it '
+             'there hung a picture that he had recently cut out of an '
+             'illustrated magazine and housed in a nice, gilded frame. It '
+             'showed a lady fitted out with a fur hat and fur boa who sat '
+             'upright, raising a heavy fur muff that covered the whole of her '
+             'lower arm towards the viewer. Gregor then turned to look out the '
+             'window at the dull weather. Drops</span></font><br><div><font '
+             'face="arial, sans-serif" color="#000000"><span '
+             'style="font-size:10px"><br></span></font></div><div><font '
+             'face="arial, sans-serif" color="#000000"><span '
+             'style="font-size:10px"><br></span></font></div></div>\r\n',
+ 'receivedDate': datetime.datetime(2021, 4, 13, 14, 2, 23, tzinfo=<avro.timezones.UTCTzinfo object at 0x0000020677598E80>),
+ 'replyTo': ['malvisbid@gmail.com'],
+ 'sender': 'malvisbid@gmail.com',
+ 'sentDate': datetime.datetime(2021, 4, 13, 14, 2, 6, tzinfo=<avro.timezones.UTCTzinfo object at 0x0000020677598E80>),
+ 'subject': 'Sample Kafka Test With Attachment',
+ 'textBody': 'One morning, when Gregor Samsa woke from troubled dreams, he '
+             'found himself\r\n'
+             'transformed in his bed into a horrible vermin. He lay on his '
+             'armour-like\r\n'
+             'back, and if he lifted his head a little he could see his brown '
+             'belly,\r\n'
+             'slightly domed and divided by arches into stiff sections. The '
+             'bedding was\r\n'
+             'hardly able to cover it and seemed ready to slide off any '
+             'moment. His many\r\n'
+             'legs, pitifully thin compared with the size of the rest of him, '
+             'waved about\r\n'
+             'helplessly as he looked. "What\'s happened to me?" he thought. '
+             "It wasn't a\r\n"
+             'dream. His room, a proper human room although a little too '
+             'small, lay\r\n'
+             'peacefully between its four familiar walls. A collection of '
+             'textile samples\r\n'
+             'lay spread out on the table - Samsa was a travelling salesman - '
+             'and above\r\n'
+             'it there hung a picture that he had recently cut out of an '
+             'illustrated\r\n'
+             'magazine and housed in a nice, gilded frame. It showed a lady '
+             'fitted out\r\n'
+             'with a fur hat and fur boa who sat upright, raising a heavy fur '
+             'muff that\r\n'
+             'covered the whole of her lower arm towards the viewer. Gregor '
+             'then turned\r\n'
+             'to look out the window at the dull weather. Drops\r\n',
+ 'to': ['malvibid@gmail.com']}

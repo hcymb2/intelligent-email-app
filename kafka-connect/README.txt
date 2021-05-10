@@ -1,0 +1,1 @@
+For user manual refer to this GitHub Link: https://github.com/hcymb2/intelligent-email-app 
