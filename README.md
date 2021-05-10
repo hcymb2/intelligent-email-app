@@ -11,7 +11,7 @@ The improved software features:
 
 - Kafka Producer which uses the Gmail API and OAuth authentication to access the users mailbox and emails, which is more flexible compared to Kafka Connector.
 - Scheduler to fetch emails at an adjustable time interval e.g the mailbox can be checked every 30 minutes or 1 hour. This has been implemented this way because, when there are 0 unread messages, it does not make sense to keep checking the inbox again immediately and make unnecessary API calls. At each interval, any unread emails can be batched and processed together.
-- MongoDB Atlas database deployed on Google cloud. Can access messages on Kafka using MongoDB Kafka Sink Connector. Messages on the database can be accessed and manipulated using PyMongo.
+- MongoDB Atlas database deployed on Google cloud. Can access messages on Kafka using MongoDB Kafka Sink Connector. Messages on the database can be accessed andusing PyMongo.
 - LDA Machine Learning model, which has been optimised.
 
 
