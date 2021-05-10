@@ -62,6 +62,7 @@ def ReadEmailDetails(user_id):
     final_list = [ ]
 
     for msg in messages:
+
         email_dict = {}
 
         # Use try-except to avoid any Errors
@@ -81,17 +82,17 @@ def ReadEmailDetails(user_id):
 
                 if look['name'] == 'To':
                     receiver = look['value']
-                    email_dict['Receiver'] = receiver
+                    email_dict['To'] = receiver
 
                 if look['name'] == 'From':
                     sender = look['value']
-                    email_dict['Sender'] = sender
+                    email_dict['From'] = sender
 
                 if look['name'] == 'Date':
                     msg_date = look['value']
                     date_parse = (parser.parse(msg_date))
                     m_date = (date_parse.strftime("%Y/%m/%d %H:%M:%S %z %Z"))
-                    email_dict['DateTime'] = date_parse
+                    email_dict['Date_time'] = date_parse
 
             # The Body of the message is in Encrypted format. So, we have to decode it.
             # Get the data and decode it with base 64 decoder.
@@ -103,14 +104,15 @@ def ReadEmailDetails(user_id):
             # Now, the data obtained is in lxml. So, we will parse
             # it with BeautifulSoup library
             soup = BeautifulSoup(decoded_data, "lxml")
-            body = soup.body()
-            email_dict['Message_body'] = body
+            body = soup.find('p').getText()
+            #body = soup.body()
+            email_dict["Message_body"] = body
 
             # Printing the subject, sender's email and message
             #pprint.pprint(email_dict)
             print("Subject: ", subject)
 
-
+            
 
         except Exception as e:
             print(e)
@@ -118,12 +120,15 @@ def ReadEmailDetails(user_id):
             pass
 
 
+        #mark the message as read
+        service.users().messages().modify(userId=user_id, id=msg['id'], body={ 'removeLabelIds': ['UNREAD']}).execute()
+
+        if email_dict is None:
+            continue
+
         # print(email_dict)
         final_list.append(email_dict) # This will create a dictonary item in the final list (list of email dictionaries)
         
-
-        #mark the message as read
-        #service.users().messages().modify(userId=user_id, id=msg['id'], body={ 'removeLabelIds': ['UNREAD']}).execute()
 
     #print(final_list[0])
     print ("Total messaged retrived: ", str(len(final_list)))
@@ -159,7 +164,7 @@ if __name__ == '__main__':
 
     #exporting the values as .csv
     with open('csv-dataset/custom_email_dataset.csv', 'w', encoding='utf-8', newline = '') as csvfile: 
-        fieldnames = ['DateTime','From','To','Subject','Message_body']
+        fieldnames = ['Date_time','From','To','Subject','Message_body']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter = ',')
         writer.writeheader()
         for val in save_email:

@@ -1,5 +1,5 @@
-DateTime,From,To,Subject,Message_body
-2021-04-16 11:34:34+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to code video games [free 7-hour Unity 3D course],"[<p>Here are this week's five links that are worth your time:
+Date_time,From,To,Subject,Message_body
+2021-04-16 11:34:34+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to code video games [free 7-hour Unity 3D course],"Here are this week's five links that are worth your time:
 
 1. Building video games can be just as much fun as playing them. And this in-depth Unity 3D course for beginners will show you how to get started as a game developer. You'll learn how to install Unity, program game physics, animate your characters, code your enemy AI, and more. (7 hour YouTube course): https://www.freecodecamp.org/news/game-development-for-beginners-unity-course/
 
@@ -25,8 +25,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-04-09 19:15:54+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Two free Python courses for you this week – Django and scikit-learn,"[<p>Here are this week's five links that are worth your time:
+"
+2021-04-09 19:15:54+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Two free Python courses for you this week – Django and scikit-learn,"Here are this week's five links that are worth your time:
 
 1. Learn Python's Django web development framework by building your own ecommerce website. You'll also learn the popular Vue.js front end library. If you know a little Python and JavaScript, and want to start applying your skills with a bigger project, this is the course for you. You'll learn about web servers, authentication, shopping carts, and more. Detailed codebases included. (3 hour YouTube course): https://www.freecodecamp.org/news/create-an-e-commerce-site-with-django-and-vue/
 
@@ -52,8 +52,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-04-02 14:59:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to code APIs using Node.js [free 8-hour Course],"[<p>Here are this week's five links that are worth your time:
+"
+2021-04-02 14:59:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to code APIs using Node.js [free 8-hour Course],"Here are this week's five links that are worth your time:
 
 1. Node.js is a popular JavaScript tool for coding the back end of websites and mobile apps. Lots of big companies use Node in production: Netflix, LinkedIn – even NASA uses Node. In this course, you'll learn asynchronous programming and how to use event emitters, data streams, middleware, Postman, and a ton of API routing best practices. (8 hour YouTube course): https://www.freecodecamp.org/news/free-8-hour-node-express-course/
 
@@ -81,8 +81,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-03-26 17:00:08+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,40 JavaScript project ideas so you can learn by doing,"[<p>Here are this week's five links that are worth your time:
+"
+2021-03-26 17:00:08+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,40 JavaScript project ideas so you can learn by doing,"Here are this week's five links that are worth your time:
 
 1. One of the best ways to strengthen your developer skills is to build a lot of projects. Here are 40 free JavaScript project ideas designed specifically with web developers in mind. Each of these projects includes a course or detailed tutorial, along with an example codebase. (browsable list): https://www.freecodecamp.org/news/javascript-projects-for-beginners/
 
@@ -110,37 +110,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-03-19 17:27:22+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Data Structures and Algorithms [free 6-hour coding course],"[<p>Here are this week's five links that are worth your time:
-
-1. This course will teach you fundamental data structures like arrays and linked lists. You'll then use these data structures to build common algorithms like Merge Sort and Quicksort. (6 hour YouTube course): https://www.freecodecamp.org/news/algorithms-and-data-structures-free-treehouse-course/
-
-2. Learn how to implement your own secure sign-in for your web development projects using JavaScript, Node.js, and the Passport.js library. You'll learn about HTTP headers, cookies, public key cryptography, and JSON Web Tokens. (6 hour YouTube course): https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js/
-
-3. This week I went on the Changelog, a major open source podcast. The hosts interviewed me about the history of freeCodeCamp, the community behind it, and our upcoming Data Science curriculum expansion. (1 hour listen): https://www.freecodecamp.org/news/quincy-larson-interview-changelog-podcast/
-
-4. TypeScript is a statically-typed version of JavaScript. A lot of developers prefer it because it can reduce the number of bugs in your code. By the end of this crash course, you'll understand TypeScript's key features and how to leverage them. (90 minute YouTube course): https://www.freecodecamp.org/news/learn-typescript-with-this-crash-course/
-
-5. How to get started with Git, the world's most popular version control system. You'll learn common Git commands and gain a conceptual understanding of how Git tracks changes. You'll also get to try out some Git workflows. (15 minute read): https://www.freecodecamp.org/news/what-is-git-learn-git-version-control/
-
-This week marks the 5-year anniversary of these ""5 links worth your time"" emails. You can browse all of my past emails in a single page: https://www.freecodecamp.org/news/quincy-larson-5-links-worth-your-time-email-full-list/
-
-Also, this week our data science curriculum fundraiser hit a new milestone: 1,500 individual donors. Learn more about the new math and machine learning courses we're designing and how to get involved: https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/
-
-
-Quote of the Week: “The fastest algorithm can frequently be replaced by one that is almost as fast and much easier to understand.” – Douglas W. Jones
-
-
-Happy coding.
-
-- Quincy Larson
-
-Teacher at https://www.freecodecamp.org
-I share useful things on Twitter at https://www.twitter.com/ossia
-
-If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-03-05 14:37:38+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn AWS cloud basics [free 5-hour DevOps course],"[<p>Here are this week's five links that are worth your time:
+"
+2021-03-05 14:37:38+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn AWS cloud basics [free 5-hour DevOps course],"Here are this week's five links that are worth your time:
 
 1. Learn the basics of AWS. You'll get hands-on practice with cloud servers, databases, file storage, automation tools – and even Docker and serverless tools. There are no prerequisites. You just need to block out a few hours to sit down and learn. (5 hour YouTube course): https://www.freecodecamp.org/news/learn-the-basics-of-amazon-web-services/
 
@@ -168,8 +139,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-02-26 12:26:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Data Visualization Skills [Free 17-hour Course on React and D3.js],"[<p>Here are this week's five links that are worth your time:
+"
+2021-02-26 12:26:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Data Visualization Skills [Free 17-hour Course on React and D3.js],"Here are this week's five links that are worth your time:
 
 1. freeCodeCamp just published an epic 17-hour Data Visualization course. You'll learn: D3.js, SVG graphics, React, React hooks – all while building several data visualization projects. (17 hour YouTube course): https://www.freecodecamp.org/news/learn-data-visualization-in-this-free-17-hour-course/
 
@@ -196,8 +167,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-02-19 13:07:36+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn Python data analysis [free 10-hour course on Pandas, NumPy, and Matplotlib]","[<p>This week's five links that are worth your time:
+"
+2021-02-19 13:07:36+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn Python data analysis [free 10-hour course on Pandas, NumPy, and Matplotlib]","This week's five links that are worth your time:
 
 1. freeCodeCamp just published a free 10-hour Python Data Analysis course. You can learn Pandas, Numpy, Matplotlib, and other key data science tools. This course is taught by a former Twitter engineer, IIT grad, and ACM ICPC world finalist. (10 hour YouTube course): https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/
 
@@ -225,8 +196,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2021-02-12 12:29:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn UI / UX Design [free 90-minute course on wireframes & prototypes],"[<p>This week's five links that are worth your time:
+"
+2021-02-12 12:29:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn UI / UX Design [free 90-minute course on wireframes & prototypes],"This week's five links that are worth your time:
 
 1. Learn User Interface and User Experience Design in this hands-on web development course. You'll build a wireframe, convert it into a design in Figma, and ultimately code a working prototype. (90 minute YouTube course + design files): https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma/
 
@@ -254,8 +225,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2021-02-05 12:49:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A free full-length book on Docker and DevOps you can read in your browser,"[<p>Here are this week's five links that are worth your time:
+"
+2021-02-05 12:49:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A free full-length book on Docker and DevOps you can read in your browser,"Here are this week's five links that are worth your time:
 
 1. The Docker Handbook. This full-length Docker book is rich with code examples. It will teach you all about containerization, custom Docker images and online registries, and how to work with multiple containers using Docker Compose. (free full-length book you can read in your browser): https://www.freecodecamp.org/news/the-docker-handbook/
 
@@ -279,8 +250,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-01-29 12:19:13+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Python VS JavaScript – what are the key differences?,"[<p>Here are this week's five links that are worth your time:
+"
+2021-01-29 12:19:13+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Python VS JavaScript – what are the key differences?,"Here are this week's five links that are worth your time:
 
 1. Python VS JavaScript – what are the key differences? Estefania dives deep into both languages to explore how they handle loops, conditional logic, data types, input/output, and more. These are the two biggest language ecosystems, and they're rapidly shaping the software development as a whole. (20 minute read): https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/
 
@@ -307,8 +278,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2021-01-22 15:19:00+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get your first freelance client as a developer,"[<p>Here are this week's five links that are worth your time:
+"
+2021-01-22 15:19:00+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get your first freelance client as a developer,"Here are this week's five links that are worth your time:
 
 1. This freelancing guide will help you figure out what kind of work you want to do, then find paying clients for that work. It will also give you tips on building your portfolio, marketing your services, and using data to fine-tune your approach. (12 minute read): https://www.freecodecamp.org/news/how-to-get-your-first-freelancing-client-project/
 
@@ -337,8 +308,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2021-01-15 05:20:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to design and code a modern website [free 5-hour course on JavaScript & CSS],"[<p>Here are this week's five links that are worth your time:
+"
+2021-01-15 05:20:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to design and code a modern website [free 5-hour course on JavaScript & CSS],"Here are this week's five links that are worth your time:
 
 1. In this course, Jessica will teach you how to design and code a modern website step-by-step. You'll use CSS Grid, Flexbox, JavaScript, HTML5, and responsive web design principles. (5 hour YouTube course): https://www.freecodecamp.org/news/how-to-make-a-landing-page-using-html-scss-and-javascript/
 
@@ -366,8 +337,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2021-01-11 16:41:09+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,20 award-winning 13-kilobyte games you can play in your browser (and how they're coded),"[<p>Here are this week's five links that are worth your time:
+"
+2021-01-11 16:41:09+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,20 award-winning 13-kilobyte games you can play in your browser (and how they're coded),"Here are this week's five links that are worth your time:
 
 1. Every year developers hold a competition to build video games using just 13 kilobytes of JavaScript. For reference, the original Donkey Kong game from 1981 was 16 kilobytes. And yet these devs are able to build platformers, puzzle games, and even 3D games in just 13KB. In this video, Ania will demo the top 20 games from the 2020 js13k competition, and she'll explain some of the techniques developers used to code these games. (1 hour watch): https://www.freecodecamp.org/news/20-award-winning-games-explained-code-breakdown/
 
@@ -394,8 +365,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2020-12-23 01:44:00+00:00,quincy@freecodecamp.org,malvisbid@gmail.com,"3 Python courses, 2 JS tutorials, and a partridge in a pear tree","[<p>Here are this week's five links that are worth your time:
+"
+2020-12-23 01:44:00+00:00,quincy@freecodecamp.org,malvisbid@gmail.com,"3 Python courses, 2 JS tutorials, and a partridge in a pear tree","Here are this week's five links that are worth your time:
 
 1. In this Pokémon-style animation, Jessica explains how she taught herself to code over a six year process, and ultimately landed a six-figure developer job. She doesn't have a computer science degree, and has never attended a bootcamp or paid for any courses. Instead she just kept applying for increasingly difficult coding jobs and ramping up. (7 minute read + animated video): https://www.freecodecamp.org/news/how-i-learned-to-code-without-a-cs-degree-or-bootcamp/
 
@@ -426,8 +397,8 @@ Teacher at https://www.freecodecamp.org
 I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
-</p>]"
-2020-12-11 08:38:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python by building 12 fun projects [free 3-hour course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-12-11 08:38:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python by building 12 fun projects [free 3-hour course],"Here are this week's five links that are worth your time:
 
 1. Learn Python by building 12 projects in this new freeCodeCamp course. You can code along at home and watch Kylie, a graduate student at MIT, as she builds Minesweeper, Madlibs, a Sudoku Solver, and other fun projects. (3 hour YouTube course): https://www.freecodecamp.org/news/learn-how-to-build-12-python-projects-in-one-course/
 
@@ -459,8 +430,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-12-04 12:51:26+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Dynamic Programming for beginners [free 5-hour algorithm course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-12-04 12:51:26+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Dynamic Programming for beginners [free 5-hour algorithm course],"Here are this week's five links that are worth your time:
 
 1. Dynamic Programing is a style of coding where you store the results of your algorithm in a data structure while it runs. These strategies can speed up your code and help you ace your job interviews. This new course will teach you all about Memoization, Tabulation, and other approaches for solving coding challenges. (5 hour YouTube course): https://www.freecodecamp.org/news/learn-dynamic-programing-to-solve-coding-challenges/
 
@@ -494,8 +465,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-11-20 08:00:38+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A free React.js handbook for beginner developers,"[<p>Here are this week's five links that are worth your time:
+"
+2020-11-20 08:00:38+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A free React.js handbook for beginner developers,"Here are this week's five links that are worth your time:
 
 1. This beginners' handbook will show you what React is, why so many developer jobs require it, and how to install it. You'll also learn how to use the fundamental building blocks of a React app: Components, State, and Props. (30 minute read): https://www.freecodecamp.org/news/react-beginner-handbook/
 
@@ -523,8 +494,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-11-13 11:07:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn how websites work – a free course on hosting, domains, and DNS","[<p>Here are this week's five links that are worth your time:
+"
+2020-11-13 11:07:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn how websites work – a free course on hosting, domains, and DNS","Here are this week's five links that are worth your time:
 
 1. How to put a website online. This course will show you how to build a static website, host it, and give it a custom domain. If you want to build a personal website or a website for a small business, this is a good place to start. (1 hour YouTube course): https://www.freecodecamp.org/news/how-to-put-a-website-online-guide-to-website-creation-custom-domain-and-hosting/
 
@@ -552,8 +523,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-11-06 08:39:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,60 Linux commands every dev should know [free handbook],"[<p>Here are this week's five links that are worth your time:
+"
+2020-11-06 08:39:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,60 Linux commands every dev should know [free handbook],"Here are this week's five links that are worth your time:
 
 1. This Linux Command Handbook covers 60 core Bash commands you will need as a developer. Each entry includes example code and tips for when to use that command. You can bookmark this in your browser or download a PDF version for free. (1 hour read): https://www.freecodecamp.org/news/the-linux-commands-handbook/
 
@@ -581,8 +552,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-10-23 06:37:41+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Dive into Deep Learning [free 15 hour coding course for beginners],"[<p>Here are this week's five links that are worth your time:
+"
+2020-10-23 06:37:41+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Dive into Deep Learning [free 15 hour coding course for beginners],"Here are this week's five links that are worth your time:
 
 1. Dive into Deep Learning with this machine learning course taught by industry veterans. You'll learn about Random Forests, Gradient Descent, Recurrent Neural Networks, and other key coding concepts. All you need to get started with this course is some Python knowledge and a little high school math. And if you need to brush up on those, freeCodeCamp.org has you covered. (15 hour YouTube course): https://www.freecodecamp.org/news/learn-deep-learning-from-the-president-of-kaggle/
 
@@ -610,8 +581,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-10-16 08:01:01+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Code your own Twitter app [free 6-hour Node.js + GraphQL course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-10-16 08:01:01+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Code your own Twitter app [free 6-hour Node.js + GraphQL course],"Here are this week's five links that are worth your time:
 
 1. This full-length course will teach you how to build your own social network platform. And in the process, you'll learn key web development tools: MongoDB, Express, React, Node.js, and GraphQL – the powerful but sillily-named MERNG stack. (6 hour YouTube course): https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network/
 
@@ -639,8 +610,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-10-09 07:43:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React with this free 10-hour YouTube course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-10-09 07:43:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React with this free 10-hour YouTube course,"Here are this week's five links that are worth your time:
 
 1. Learn React, one of the most popular web development tools. This beginner-level course will teach you how to use the React JavaScript library. It will also teach you how to use React Hooks, React Router, and the context API. (10 hour YouTube course): https://www.freecodecamp.org/news/react-10-hour-course/
 
@@ -668,8 +639,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-10-02 09:32:48+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Object Oriented Programming basics in 30 minutes [free course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-10-02 09:32:48+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Object Oriented Programming basics in 30 minutes [free course],"Here are this week's five links that are worth your time:
 
 1. This free crash course will teach you powerful Object Oriented Programming concepts like Encapsulation, Abstraction, Inheritance, and Polymorphism. If you have a little experience with a programming language like JavaScript or Python, you should be able to learn quite a bit from this. (30 minute video course): https://www.freecodecamp.org/news/object-oriented-programming-crash-course/
 
@@ -697,8 +668,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-09-25 09:41:15+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to use the VS Code editor like a pro [free 2-hour course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-09-25 09:41:15+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to use the VS Code editor like a pro [free 2-hour course],"Here are this week's five links that are worth your time:
 
 1. This 2-hour Visual Studio Code course will show you how to use the open source VS Code editor like a pro. You'll learn how to set up your own local developer environment. You'll also learn how to use plugins to turbocharge your coding sessions. (2 hour video course): https://www.freecodecamp.org/news/learn-visual-studio-code-to-increase-productivity/
 
@@ -726,8 +697,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-09-18 08:34:28+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Computer Network Engineering Concepts [free 9-hour course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-09-18 08:34:28+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Computer Network Engineering Concepts [free 9-hour course],"Here are this week's five links that are worth your time:
 
 1. Learn key computer network engineering concepts from an industry veteran. This free course is also a great primer for network and security certifications like the CompTIA and the CCNA. (9 hour video course): https://www.freecodecamp.org/news/free-computer-networking-course/
 
@@ -740,7 +711,7 @@ If these emails aren't worth your time, you can turn them off: https://www.freec
 5. What is Data Analytics? This plain-English tutorial will give you a 30,000-foot view of the field and introduce you to several key Data Analysis concepts. (12 minute read): https://www.freecodecamp.org/news/a-30-000-foot-introduction-to-data-analytics-and-its-foundational-components/
 
 
-Quote of the Week: “Data is not information. Information is not knowledge. Knowledge is not understanding. Understanding is not wisdom.” – Gary Schubert &amp; Cliff Stoll
+Quote of the Week: “Data is not information. Information is not knowledge. Knowledge is not understanding. Understanding is not wisdom.” – Gary Schubert & Cliff Stoll
 
 
 I hope you are finding these weekly links to be worth your time. Thanks again to the 6,421 people who support our nonprofit and our mission each month. If you want to join these kind-hearted supporters, you can donate here: https://www.freecodecamp.org/donate
@@ -755,8 +726,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-09-11 08:47:30+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the data structures developers use most [free 3-hour course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-09-11 08:47:30+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the data structures developers use most [free 3-hour course],"Here are this week's five links that are worth your time:
 
 1. freeCodeCamp just published a free Intro to Data Structures course that covers Linked Lists, Dictionaries, Heaps, Trees, Tries, Graphs and lots of other computer science concepts. (3 hour video course): https://www.freecodecamp.org/news/learn-all-about-data-structures-used-in-computer-science/
 
@@ -784,8 +755,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-09-04 09:03:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Wireframes: How to Power Up Your Coding Skills with this UX Design Methodology,"[<p>Here are this week's five links that are worth your time:
+"
+2020-09-04 09:03:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Wireframes: How to Power Up Your Coding Skills with this UX Design Methodology,"Here are this week's five links that are worth your time:
 
 1. Learn a powerful User Experience Design tool called Wireframing to plan out your websites using nothing more than a pencil and a sheet of paper. This can help you think through a project before you type the first line of code. (6 minute read + 30 minute video course): https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website/
 
@@ -813,8 +784,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-08-28 08:39:17+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn intermediate Python skills with this free 6 hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-08-28 08:39:17+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn intermediate Python skills with this free 6 hour course,"Here are this week's five links that are worth your time:
 
 1. Learn intermediate Python skills with this new course freeCodeCamp just published today. You'll learn threading, multiprocessing, context managers, generators, and more. This is a great second course if you've already learned some basic Python. And if you haven't yet, we have plenty of courses on basic Python, too. (6 hour video course): https://www.freecodecamp.org/news/intermediate-python-course/
 
@@ -842,8 +813,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-08-21 07:16:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python by building your own adventure game with this free course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-08-21 07:16:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python by building your own adventure game with this free course,"Here are this week's five links that are worth your time:
 
 1. If you're new to Python, here's a good project to get started. This course will walk you through how to build your own text-based adventure game. (1 hour watch): https://www.freecodecamp.org/news/your-first-python-project/
 
@@ -871,8 +842,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-08-14 09:58:12+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A Brief History of Responsive Web Design,"[<p>Here are this week's five links that are worth your time:
+"
+2020-08-14 09:58:12+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A Brief History of Responsive Web Design,"Here are this week's five links that are worth your time:
 
 1. A Brief History of Responsive Web Design. You'll learn about the design breakthroughs that have helped developers build websites that work equally well on desktop, mobile, and tablet. (10 minute read): https://www.freecodecamp.org/news/history-of-responsive-web-design/
 
@@ -900,8 +871,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-08-07 16:55:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to write a developer résumé that hiring managers will actually read,"[<p>Here are this week's five links that are worth your time:
+"
+2020-08-07 16:55:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to write a developer résumé that hiring managers will actually read,"Here are this week's five links that are worth your time:
 
 1. How to Write a Developer Résumé Hiring Managers Will Actually Read. Practical tips from a cybersecurity engineer who is a hiring manager herself. (10 minute read): https://www.freecodecamp.org/news/how-to-write-a-resume-that-works/
 
@@ -929,8 +900,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-07-31 07:51:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A Free 90-Minute Crash Course on Deep Learning,"[<p>Here are this week's five links that are worth your time:
+"
+2020-07-31 07:51:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,A Free 90-Minute Crash Course on Deep Learning,"Here are this week's five links that are worth your time:
 
 1. This Deep Learning Crash Course will teach you all about Neural Networks, Activation Functions, Supervised Learning, Reinforcement Learning, and other key concepts and terms. (90 minute video course): https://www.freecodecamp.org/news/deep-learning-crash-course-learn-the-key-concepts-and-terms/
 
@@ -958,8 +929,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-07-17 07:42:48+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React and TypeScript by Building Your Own Quiz App With This Free Course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-07-17 07:42:48+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React and TypeScript by Building Your Own Quiz App With This Free Course,"Here are this week's five links that are worth your time:
 
 1. Learn React and TypeScript by building your own quiz app. You'll learn the popular create-react-app tool, design your own styled components, and use TypeScript to integrate with a quiz API. (80 minute video course): https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript/
 
@@ -988,8 +959,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-07-03 09:49:33+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Tips from a developer who just did 60 coding job interviews in a single month,"[<p>Here are this week's five links that are worth your time:
+"
+2020-07-03 09:49:33+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Tips from a developer who just did 60 coding job interviews in a single month,"Here are this week's five links that are worth your time:
 
 1. Tips from a developer who just did 60 coding interviews in a single month. And yes, he got multiple job offers. (15 minute read): https://www.freecodecamp.org/news/what-i-learned-from-doing-60-technical-interviews-in-30-days/
 
@@ -1020,8 +991,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-06-26 09:26:55+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Two more free Python Machine Learning courses for you: Keras + SciKit-Learn,"[<p>Here are this week's five links that are worth your time:
+"
+2020-06-26 09:26:55+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Two more free Python Machine Learning courses for you: Keras + SciKit-Learn,"Here are this week's five links that are worth your time:
 
 1. This course will teach you how to use Keras, a popular Python library for deep learning. You'll build and train a neural network, then deploy it to the web using Flask and TensorFlow.js. (3 hour watch): https://www.freecodecamp.org/news/keras-video-course-python-deep-learning/
 
@@ -1049,8 +1020,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-06-19 08:17:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Machine Learning Algorithms Explained in Plain English,"[<p>Here are this week's five links that are worth your time:
+"
+2020-06-19 08:17:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Machine Learning Algorithms Explained in Plain English,"Here are this week's five links that are worth your time:
 
 1. Here are the 9 most commonly used Machine Learning algorithms, all explained in plain English. This article will walk you through Random Forests, K-Nearest Neighbors, Linear Regression, and other approaches in a beginner-friendly way. (18 minute read): https://www.freecodecamp.org/news/a-no-code-intro-to-the-9-most-important-machine-learning-algorithms-today/
 
@@ -1078,8 +1049,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-06-11 20:25:53+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Amp up your JavaScript skills by building 15 new projects [free course],"[<p>Here are this week's five links that are worth your time:
+"
+2020-06-11 20:25:53+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Amp up your JavaScript skills by building 15 new projects [free course],"Here are this week's five links that are worth your time:
 
 1. This free course will help you improve your JavaScript skills by building 15 bite-sized projects (8 hour watch): https://www.freecodecamp.org/news/hone-your-javascript-skills-by-building-these-15-projects/
 
@@ -1104,8 +1075,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-06-05 09:12:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A Free 12-hour Python Data Science Course to Help You Learn NumPy, Pandas, and More","[<p>Here are this week's five links that are worth your time:
+"
+2020-06-05 09:12:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A Free 12-hour Python Data Science Course to Help You Learn NumPy, Pandas, and More","Here are this week's five links that are worth your time:
 
 1. This Python Data Science course for beginners covers basic Python, Pandas, NumPy, Matplotlib, and even teaches you some problem solving and pseudocode planning skills. (12 hour watch): https://www.freecodecamp.org/news/python-data-science-course-matplotlib-pandas-numpy/
 
@@ -1130,8 +1101,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-05-29 11:56:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"I analyzed data from 65,000 software developers, their salaries, and how they code","[<p>Here are this week's five links that are worth your time:
+"
+2020-05-29 11:56:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"I analyzed data from 65,000 software developers, their salaries, and how they code","Here are this week's five links that are worth your time:
 
 1. My analysis of the results from Stack Overflow's survey of 65,000 software developers around the world. I explore their salaries, educational backgrounds, and their favorite programming languages. (10 minute read): https://www.freecodecamp.org/news/stack-overflow-developer-survey-2020-programming-language-framework-salary-data/
 
@@ -1156,8 +1127,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-05-21 18:57:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn JavaScript by Building Your Own Playable Tetris Game – a Free 90 Minute Course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-05-21 18:57:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn JavaScript by Building Your Own Playable Tetris Game – a Free 90 Minute Course,"Here are this week's five links that are worth your time:
 
 1. Learn some JavaScript by building your own playable Tetris game. This free course will teach you a ton of JavaScript methods and DOM manipulation approaches, along with some basic GameDev concepts. (90 minute watch): https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game/
 
@@ -1182,8 +1153,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-05-14 20:55:16+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What is Agile Software Development? Here are the Basic Principles.,"[<p>Here are this week's five links that are worth your time:
+"
+2020-05-14 20:55:16+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What is Agile Software Development? Here are the Basic Principles.,"Here are this week's five links that are worth your time:
 
 1. What is Agile software development? Here are the basic principles. (7 minute read): https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/
 
@@ -1208,8 +1179,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-04-30 22:42:14+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What Exactly is Computer Programming?,"[<p>Here are this week's five links that are worth your time:
+"
+2020-04-30 22:42:14+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What Exactly is Computer Programming?,"Here are this week's five links that are worth your time:
 
 1. What exactly is computer programming? Phoebe – a developer from the UK – explains the art of software development using simple analogies. (40 minute read): https://www.freecodecamp.org/news/what-is-computer-programming-defining-software-development/
 
@@ -1234,8 +1205,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-04-24 08:26:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Computer Science Basics in Just 2 Hours With This Free Course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-04-24 08:26:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Computer Science Basics in Just 2 Hours With This Free Course,"Here are this week's five links that are worth your time:
 
 1. Learn the basics of programming and computer science with this beginner-friendly free course. You'll learn concepts like variables, functions, data structures, recursion, and more. (2 hour watch): https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/
 
@@ -1260,8 +1231,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-04-17 08:50:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python Data Analysis With This Free 4-Hour Course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-04-17 08:50:32+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python Data Analysis With This Free 4-Hour Course,"Here are this week's five links that are worth your time:
 
 1. Learn Data Analysis with Python. This free course covers SQL, NumPy, Pandas, Matplotlib, and other tools for visualizing data and creating reports. We also include Jupyter Notebooks so you can run the code yourself, along with plenty of exercises to reinforce your understanding of the concepts. (4 hour course): https://www.freecodecamp.org/news/learn-data-analysis-with-python-course/
 
@@ -1286,8 +1257,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-04-10 09:10:47+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Cloud Computing and Get AWS Certified With This Free 16-hour Course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-04-10 09:10:47+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Cloud Computing and Get AWS Certified With This Free 16-hour Course,"Here are this week's five links that are worth your time:
 
 1. Learn cloud computing and get AWS certified. Our new AWS Developer Associate Certification course is now live. You'll learn DynamoDB, Elastic Beanstalk, Serverless and more. (16 hour course): https://www.freecodecamp.org/news/pass-the-aws-developer-associate-exam-with-this-free-16-hour-course/
 
@@ -1313,8 +1284,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-04-03 08:15:47+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn How to Architect Software (and System Design Concepts) For Free,"[<p>Here are this week's five links that are worth your time:
+"
+2020-04-03 08:15:47+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn How to Architect Software (and System Design Concepts) For Free,"Here are this week's five links that are worth your time:
 
 1. You may have heard the terms ""Architecture"" or ""System Design."" These come up a lot during developer job interviews. Especially at big tech companies. This in-depth guide will help prepare you for the System Design interview, by teaching you basic software architecture concepts. (40 minute read): https://www.freecodecamp.org/news/systems-design-for-interviews/
 
@@ -1339,8 +1310,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-03-27 09:07:42+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to Stay Productive (and Keep Coding) in the Age of Social Distancing,"[<p>Here are this week's five links that are worth your time:
+"
+2020-03-27 09:07:42+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to Stay Productive (and Keep Coding) in the Age of Social Distancing,"Here are this week's five links that are worth your time:
 
 1. How to Stay Productive in the Age of Social Distancing (8 minute read): https://www.freecodecamp.org/news/staying-productive-in-the-age-of-social-distancing/
 
@@ -1368,8 +1339,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-03-20 06:58:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to Code For Free From Home – The Coronavirus Quarantine Developer Skill Handbook,"[<p>Here are this week's five links that are worth your time:
+"
+2020-03-20 06:58:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn to Code For Free From Home – The Coronavirus Quarantine Developer Skill Handbook,"Here are this week's five links that are worth your time:
 
 1. The Coronavirus Quarantine Developer Skill Handbook â€“ my tips for how to make the most of your time and learn to code for free from home (12 minute read): https://www.freecodecamp.org/news/coronavirus-academy/
 
@@ -1397,8 +1368,8 @@ The teacher who founded freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-03-12 19:09:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn how to code ""close to the metal"" with this free C Programming Handbook","[<p>Here are this week's five links that are worth your time:
+"
+2020-03-12 19:09:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn how to code ""close to the metal"" with this free C Programming Handbook","Here are this week's five links that are worth your time:
 
 1. Developers use the expression ""close to the metal"" to mean lower-level coding that interacts closely with a computer's hardware. And the king of low-level programming is C. This C Beginner's Handbook will help you learn C basics in just a few hours. (35 minute read): https://www.freecodecamp.org/news/the-c-beginners-handbook/
 
@@ -1426,8 +1397,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-03-06 06:48:58+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,freeCodeCamp just released a 7-hour Python Machine Learning course,"[<p>Here are this week's five links that are worth your time:
+"
+2020-03-06 06:48:58+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,freeCodeCamp just released a 7-hour Python Machine Learning course,"Here are this week's five links that are worth your time:
 
 1. We just released a massive, free Python Machine Learning course focused on TensorFlow 2.0. You'll learn: core learning algorithms, deep learning with neural networks, computer vision with convolutional neural networks, natural language processing with recurrent neural networks, and reinforcement learning. It took us months to make this. I think you'll enjoy it. (7 hour watch + Jupyter Notebook modules): https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/
 
@@ -1455,8 +1426,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-02-28 07:04:20+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Resume tips from a developer who got job offers at Microsoft, Amazon, and Twitter","[<p>Here are this week's five links that are worth your time:
+"
+2020-02-28 07:04:20+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Resume tips from a developer who got job offers at Microsoft, Amazon, and Twitter","Here are this week's five links that are worth your time:
 
 1. Resume tips from a developer who got job offers at Microsoft, Amazon, and Twitter (6 minute read): https://www.freecodecamp.org/news/why-your-resume-is-being-rejected/
 
@@ -1481,8 +1452,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-02-21 07:58:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"What I learned from 213,000 coding interview tests from developers all around the world","[<p>Here are this week's five links that are worth your time:
+"
+2020-02-21 07:58:39+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"What I learned from 213,000 coding interview tests from developers all around the world","Here are this week's five links that are worth your time:
 
 1. A developer crunched the results of 213,000 coding interview tests which were completed by job candidates from around the world. He shares the insights, and a full 39-page report of the results. (9 minute read): https://www.freecodecamp.org/news/top-2020-it-skills/
 
@@ -1507,8 +1478,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-02-14 07:34:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get your first job as a self-taught developer,"[<p>Here are this week's five links that are worth your time:
+"
+2020-02-14 07:34:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get your first job as a self-taught developer,"Here are this week's five links that are worth your time:
 
 1. How to get your first job as a self-taught developer – tips from a freeCodeCamp graduate who got her first software engineering job last year (6 minute read): https://www.freecodecamp.org/news/how-to-get-your-first-job-in-tech/
 
@@ -1533,8 +1504,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-02-07 07:39:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"I analyzed the results of a new survey of 116,000 software developers for you","[<p>Here are this week's five links that are worth your time:
+"
+2020-02-07 07:39:06+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"I analyzed the results of a new survey of 116,000 software developers for you","Here are this week's five links that are worth your time:
 
 1. I analyzed a new survey of 116,000 developers and hiring managers from around the world. I share some of their noteworthy findings about developer tools, higher education, and wages. (8 minute read): https://www.freecodecamp.org/news/computer-programming-skills-2020-survey-developers-hiring-managers-hackerrank/
 
@@ -1559,8 +1530,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-01-30 18:13:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A free course on UI Design fundamentals: typography, hierarchy, whitespace, and more","[<p>Here are this week's five links that are worth your time:
+"
+2020-01-30 18:13:56+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A free course on UI Design fundamentals: typography, hierarchy, whitespace, and more","Here are this week's five links that are worth your time:
 
 1. This course will teach you User Interface Design fundamentals like whitespace, visual hierarchy, and typography (1 hour interactive course): https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course/
 
@@ -1585,8 +1556,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-01-23 19:09:50+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A free 4-hour freelancing course taught by a developer, an attorney, and an accountant","[<p>Here are this week's five links that are worth your time:
+"
+2020-01-23 19:09:50+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"A free 4-hour freelancing course taught by a developer, an attorney, and an accountant","Here are this week's five links that are worth your time:
 
 1. The Complete Freelance Web Developer Guide. People have asked freeCodeCamp to publish a course like this for years. I am so excited to share this with you. This course features in-depth advice from a veteran freelance developer, an attorney focused on business law, and an accountant. Think of it as ""your freelance developer business in a box."" Enjoy. (1 hour read + 4 hour video course): https://www.freecodecamp.org/news/freelance-web-developer-guide/
 
@@ -1614,8 +1585,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-01-16 20:15:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Cloud computing explained. My in-depth guide to cloud careers.,"[<p>Here are this week's five links that are worth your time:
+"
+2020-01-16 20:15:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Cloud computing explained. My in-depth guide to cloud careers.,"Here are this week's five links that are worth your time:
 
 1. In this article I break down all the different cloud-related developer roles and the professional AWS certifications you can earn for each of them. I also introduce freeCodeCamp's 2020 #AWSCertified challenge. (20 minute read): https://www.freecodecamp.org/news/awscertified-challenge-free-path-aws-cloud-certifications/
 
@@ -1643,8 +1614,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2020-01-02 18:21:26+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to make 2020 your big breakout year as a developer,"[<p>Here are this week's five links that are worth your time:
+"
+2020-01-02 18:21:26+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to make 2020 your big breakout year as a developer,"Here are this week's five links that are worth your time:
 
 1. Everything I know about New Year's Resolutions: how to make 2020 your big breakout year as a developer (10 minute read): https://www.freecodecamp.org/news/developer-new-years-resolution-guide/
 
@@ -1671,8 +1642,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-12-19 20:16:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to build your own API with this free 2-hour video course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-12-19 20:16:03+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to build your own API with this free 2-hour video course,"Here are this week's five links that are worth your time:
 
 1. Learn how to build your own API in this free video course. First you'll get an overview of how computers use APIs to communicate with one another. Then you'll learn how to use Node, Flask, and Postman to build your own API. (2 hour course): https://www.freecodecamp.org/news/apis-for-beginners-full-course/
 
@@ -1699,8 +1670,8 @@ The teacher who founded freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-12-13 00:50:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Web development in 2020: which coding tools to learn for the new year,"[<p>Here are this week's five links that are worth your time:
+"
+2019-12-13 00:50:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Web development in 2020: which coding tools to learn for the new year,"Here are this week's five links that are worth your time:
 
 1. Web development in 2020: My friend Brad Traversy made a 70-minute video about the state of web development, and which tools he recommends learning. I agree with pretty much everything he says here. And I've summarized his suggestions for you here. (10 minute read): https://www.freecodecamp.org/news/web-development-2020/
 
@@ -1725,8 +1696,8 @@ The teacher who founded freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-12-06 10:03:02+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to create a password that is actually secure,"[<p>Here are this week's five links that are worth your time:
+"
+2019-12-06 10:03:02+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to create a password that is actually secure,"Here are this week's five links that are worth your time:
 
 1. How to create a password that is actually secure (3 minute read): https://www.freecodecamp.org/news/actually-secure-passwords/
 
@@ -1753,8 +1724,8 @@ I share useful things on Twitter at https://www.twitter.com/ossia
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-11-28 07:31:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"How to plan, code, and deploy your startup idea in a single weekend","[<p>Here are this week's five links that are worth your time:
+"
+2019-11-28 07:31:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"How to plan, code, and deploy your startup idea in a single weekend","Here are this week's five links that are worth your time:
 
 1. How to plan, code, and deploy your startup idea in a single weekend (2 hour video course): https://www.freecodecamp.org/news/plan-code-and-deploy-a-startup-in-2-hours/
 
@@ -1779,8 +1750,8 @@ The teacher who founded freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-11-22 12:42:36+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The Next.js Handbook - a free book on how to code data-heavy React apps,"[<p>Here are this week's five links that are worth your time:
+"
+2019-11-22 12:42:36+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The Next.js Handbook - a free book on how to code data-heavy React apps,"Here are this week's five links that are worth your time:
 
 1. Next.js is a powerful new framework for coding React apps that involve a lot of data. I'm using it myself on a new project. And this free book by Flavio Copes will show you how to make the most of it. (40 minute read): https://www.freecodecamp.org/news/the-next-js-handbook/
 
@@ -1805,8 +1776,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-11-15 08:14:21+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,If you really want a job at Google here's how to get one - straight from someone who just did,"[<p>Here are this week's five links that are worth your time:
+"
+2019-11-15 08:14:21+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,If you really want a job at Google here's how to get one - straight from someone who just did,"Here are this week's five links that are worth your time:
 
 1. David Tian spent the past 10 years working on Wall Street. He's a non-native English speaker in his 40s. And yet he was able to get a job as a software engineer at Google and is now working on their new Pixel phones. In David's detailed guide he explains exactly how he got the job. Even if you're not aiming for Google, there are a ton of tips here that will help you gear up for your own job search. (50 minute read): https://www.freecodecamp.org/news/career-switchers-guide-to-your-dream-tech-job/
 
@@ -1831,8 +1802,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-11-08 15:30:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn Python by building your own Tetris, Pong, and Snake games in this free 7-hour course","[<p>Here are this week's five links that are worth your time:
+"
+2019-11-08 15:30:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"Learn Python by building your own Tetris, Pong, and Snake games in this free 7-hour course","Here are this week's five links that are worth your time:
 
 1. If you're looking for a fun way to practice Python, start here. You'll build Tetris, Pong, Snake, Connect Four, and even an online multiplayer game. Each game tutorial includes a working example codebase. (7 hour watch): https://www.freecodecamp.org/news/learn-python-by-building-5-games/
 
@@ -1857,8 +1828,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-10-31 16:37:41+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Quantum computers and quantum supremacy - explained in plain English,"[<p>Here are this week's five links that are worth your time:
+"
+2019-10-31 16:37:41+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Quantum computers and quantum supremacy - explained in plain English,"Here are this week's five links that are worth your time:
 
 1. A quantum computer just solved a problem that should take supercomputers 10,000 years to solve. And it solved the problem in just 200 seconds. Here's a plain-English explanation of what quantum computing is, how it works, and Google's new claim to ""quantum supremacy"" (4 minute read): https://www.freecodecamp.org/news/what-is-quantum-computing-googles-quantum-supremacy-claim-explained/
 
@@ -1883,8 +1854,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-10-25 06:24:01+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,5 years ago I launched freeCodeCamp from a desk in my closet,"[<p>Here are this week's five links that are worth your time:
+"
+2019-10-25 06:24:01+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,5 years ago I launched freeCodeCamp from a desk in my closet,"Here are this week's five links that are worth your time:
 
 1. 5 years ago, I launched freeCodeCamp from a desk in my closet. Today, we've helped more than 40,000 people get developer jobs. In this article I'll show you the numbers behind our nonprofit, our plans for 2020, and a ton of new features we just pushed live. (7 minute read): https://www.freecodecamp.org/news/the-future-of-freecodecamp-5-year-anniversary/
 
@@ -1909,8 +1880,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-10-11 02:07:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn graph theory algorithms from a Google engineer - a free 7 hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-10-11 02:07:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn graph theory algorithms from a Google engineer - a free 7 hour course,"Here are this week's five links that are worth your time:
 
 1. Learn graph theory algorithms from a Google engineer. This course walks you through famous graph traversal algorithms like DFS and BFS, Dijkstra's shortest path algorithm, and topological sorts. You even learn how to solve the traveling salesman problem using dynamic programming. When you're preparing for your developer job interviews, this will be a huge help. (7 hour watch): https://www.freecodecamp.org/news/learn-graph-theory-algorithms-from-a-google-engineer/
 
@@ -1938,8 +1909,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-10-04 09:33:21+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the fundamentals of Machine Learning with this free 2-hour Python course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-10-04 09:33:21+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the fundamentals of Machine Learning with this free 2-hour Python course,"Here are this week's five links that are worth your time:
 
 1. Learn the fundamentals of Machine Learning with this Python course. You'll learn how to build your own neural network and use TensorFlow 2.0 to train your models so you can make predictions. (2 hour watch): https://www.freecodecamp.org/news/learn-to-develop-neural-networks-using-tensorflow-2-0-in-this-beginners-course/
 
@@ -1964,8 +1935,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-09-26 15:13:43+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn data structures from a Google engineer in this free 8-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-09-26 15:13:43+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn data structures from a Google engineer in this free 8-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn data structures from a Google engineer. This free beginner-friendly course will teach you common data structures like singly and doubly linked lists, stacks, queues, heaps, binary trees, hash tables, AVL trees, and more. (8 hour video course + code examples): https://www.freecodecamp.org/news/learn-data-structures-from-a-google-engineer/
 
@@ -1994,8 +1965,8 @@ Teacher at freeCodeCamp.org
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
 
-</p>]"
-2019-09-20 07:20:42+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the fundamentals of Responsive Web Design in just 4 hours with this free course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-09-20 07:20:42+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the fundamentals of Responsive Web Design in just 4 hours with this free course,"Here are this week's five links that are worth your time:
 
 1. This free course will teach you responsive web design basics. You'll learn how to make websites look equally good on mobile phones, tablets, laptops - even big-screen TVs. (4 hour watch): https://www.freecodecamp.org/news/master-responsive-website-design/
 
@@ -2023,8 +1994,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-09-12 17:15:51+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Everything you need to know about HTTP - the protocol that powers the web,"[<p>Here are this week's five links that are worth your time:
+"
+2019-09-12 17:15:51+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Everything you need to know about HTTP - the protocol that powers the web,"Here are this week's five links that are worth your time:
 
 1. An introduction to HTTP: everything you need to know about the protocol that powers the world wide web (7 minute read): https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it/
 
@@ -2052,8 +2023,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-09-06 05:28:11+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How developers think,"[<p>Here are this week's five links that are worth your time:
+"
+2019-09-06 05:28:11+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How developers think,"Here are this week's five links that are worth your time:
 
 1. How developers think: a walkthrough of the planning and design behind a simple web app (10 minute read): https://www.freecodecamp.org/news/a-walk-through-the-developer-thought-process/
 
@@ -2081,8 +2052,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-08-30 09:32:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The secret to unlimited ideas for your coding projects,"[<p>Here are this week's five links that are worth your time:
+"
+2019-08-30 09:32:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The secret to unlimited ideas for your coding projects,"Here are this week's five links that are worth your time:
 
 1. The secret to unlimited ideas for your coding projects (3 minute read): https://www.freecodecamp.org/news/the-secret-to-unlimited-project-ideas/
 
@@ -2109,8 +2080,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-08-23 05:13:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Freelancing 101 for developers: how to start earning your side-income,"[<p>Here are this week's five links that are worth your time:
+"
+2019-08-23 05:13:10+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Freelancing 101 for developers: how to start earning your side-income,"Here are this week's five links that are worth your time:
 
 1. Freelancing 101: how to start earning your side-income as a developer (17 minute read): https://www.freecodecamp.org/news/freelancing-101/
 
@@ -2139,8 +2110,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-08-15 17:41:00+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own playable Tetris game - a free 3-hour React course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-08-15 17:41:00+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own playable Tetris game - a free 3-hour React course,"Here are this week's five links that are worth your time:
 
 1. How to build your own playable Tetris game. You'll learn the latest techniques, including React Hooks and Styled Components (3 hour watch): https://www.freecodecamp.org/news/react-hooks-tetris-game/
 
@@ -2168,8 +2139,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-08-08 23:53:57+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Closures explained in just 6 minutes - a fun guide to this advanced coding concept,"[<p>Here are this week's five links that are worth your time:
+"
+2019-08-08 23:53:57+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Closures explained in just 6 minutes - a fun guide to this advanced coding concept,"Here are this week's five links that are worth your time:
 
 1. Learn closures - an advanced coding concept - in just 6 minutes with this fun guide (6 minute read): https://www.freecodecamp.org/news/learn-javascript-closures-in-n-minutes/
 
@@ -2196,8 +2167,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-08-01 22:31:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"The best JavaScript meme I've ever seen, explained in detail","[<p>Here are this week's five links that are worth your time:
+"
+2019-08-01 22:31:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,"The best JavaScript meme I've ever seen, explained in detail","Here are this week's five links that are worth your time:
 
 1. The Best JavaScript meme I've ever seen, explained in detail (4 minute read): https://www.freecodecamp.org/news/explaining-the-best-javascript-meme-i-have-ever-seen/
 
@@ -2225,8 +2196,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-07-26 04:41:55+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The definitive handbook for HTML and HTML5 - and it's free,"[<p>Here are this week's five links that are worth your time:
+"
+2019-07-26 04:41:55+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The definitive handbook for HTML and HTML5 - and it's free,"Here are this week's five links that are worth your time:
 
 1. Flavio Copes is famous for his in-depth handbooks on developer tools. And he just published his HTML handbook on freeCodeCamp this week. (45 minute read): https://www.freecodecamp.org/news/the-html-handbook/
 
@@ -2257,8 +2228,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-07-18 21:13:27+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get started with Git - a free crash course for new developers,"[<p>Here are this week's five links that are worth your time:
+"
+2019-07-18 21:13:27+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to get started with Git - a free crash course for new developers,"Here are this week's five links that are worth your time:
 
 1. How to get started with Git - a free crash course for new developers (7 minute read + video): https://www.freecodecamp.org/news/git-commands/
 
@@ -2289,8 +2260,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-07-11 17:52:08+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Back End Development with Node.js - a free 3-hour JavaScript course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-07-11 17:52:08+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Back End Development with Node.js - a free 3-hour JavaScript course,"Here are this week's five links that are worth your time:
 
 1. Learn Back End Development in Node.js. This free JavaScript course will teach you the fundamentals (3 hour watch): https://www.freecodecamp.org/news/getting-started-with-node-js/
 
@@ -2317,8 +2288,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-07-03 21:43:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn D3.js and the art of Data Visualization with this free 13-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-07-03 21:43:59+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn D3.js and the art of Data Visualization with this free 13-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn the science (and the art) of Data Visualization in this free course. You'll build charts, maps, and even interactive visualizations - all using tools like SVG and D3.js (13 hour watch): https://www.freecodecamp.org/news/data-visualization-using-d3-course/
 
@@ -2345,8 +2316,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-06-27 16:53:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Build your own social media app from scratch with React - a free 12-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-06-27 16:53:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Build your own social media app from scratch with React - a free 12-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn how to build your own social media app from scratch using React, Redux, Firebase, and Express - a full-length intermediate course - all free and with no ads (12 hour watch): https://www.freecodecamp.org/news/react-firebase-social-media-app-course/
 
@@ -2375,8 +2346,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-06-13 15:41:15+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the math of Statistics in just 8 hours with this free course for developers,"[<p>Here are this week's five links that are worth your time:
+"
+2019-06-13 15:41:15+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn the math of Statistics in just 8 hours with this free course for developers,"Here are this week's five links that are worth your time:
 
 1. In this free course, you'll learn college-level Statistics fundamentals and data science concepts you can use as a developer (8 hour watch): https://www.freecodecamp.org/news/free-statistics-course/
 
@@ -2403,8 +2374,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-06-06 15:29:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Data Science basics in 6 hours with this free course (no math required),"[<p>Here are this week's five links that are worth your time:
+"
+2019-06-06 15:29:05+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Data Science basics in 6 hours with this free course (no math required),"Here are this week's five links that are worth your time:
 
 1. Learn Data Science fundamentals with this free course. Even though Data Science is a math-intensive field, Professor Poulson designed this course to teach you the basics without the need for math or programming skills. (6 hour watch): https://www.freecodecamp.org/news/data-science-course-for-beginners
 
@@ -2431,8 +2402,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-05-16 17:04:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Gatsby - the tool that powers freeCodeCamp.org - in this free 5-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-05-16 17:04:35+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Gatsby - the tool that powers freeCodeCamp.org - in this free 5-hour course,"Here are this week's five links that are worth your time:
 
 1. Gatsby.js is a popular tool for creating static websites with JavaScript, React, and GraphQL. In this full free course, you'll learn how to build and deploy your own Gatsby-powered website (5 hour watch): https://www.freecodecamp.org/news/great-gatsby-bootcamp
 
@@ -2459,8 +2430,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-05-09 13:59:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python programming fundamentals with this free 14-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-05-09 13:59:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python programming fundamentals with this free 14-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn how to install Python on your computer, do Object Oriented Programming, work with databases, and more. My friend Dr. Chuck at University of Michigan will teach you all the Python fundamentals in this free course (14 hour watch): https://www.freecodecamp.org/news/python-for-everybody
 
@@ -2487,8 +2458,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-05-02 20:18:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn HTML and CSS from scratch with this free 11-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-05-02 20:18:52+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn HTML and CSS from scratch with this free 11-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn HTML and CSS - including HTML5 and CSS3 - from scratch with this full free course (11 hour watch): https://www.freecodecamp.org/news/html-css-11-hour-course
 
@@ -2515,8 +2486,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-04-26 00:36:17+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The CSS Handbook - a full free book to guide you through CSS,"[<p>Here are this week's five links that are worth your time:
+"
+2019-04-26 00:36:17+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The CSS Handbook - a full free book to guide you through CSS,"Here are this week's five links that are worth your time:
 
 1. The CSS Handbook - a full free book to guide you through CSS (85 minute read): https://medium.freecodecamp.org/b56695917d11
 
@@ -2543,8 +2514,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-04-18 14:04:14+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to solve common developer job interview questions - a free 5-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-04-18 14:04:14+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn how to solve common developer job interview questions - a free 5-hour course,"Here are this week's five links that are worth your time:
 
 1. Learn how to solve common developer job interview algorithm challenges in this free course from a professional developer interview coach (5 hour watch): https://www.freecodecamp.org/news/master-your-coding-interview
 
@@ -2571,8 +2542,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-04-11 16:30:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The longest coding video on all of YouTube - freeCodeCamp's free 24-hour C# course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-04-11 16:30:23+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The longest coding video on all of YouTube - freeCodeCamp's free 24-hour C# course,"Here are this week's five links that are worth your time:
 
 1. If you've ever wanted to learn C# and the .NET developer tool ecosystem, you're in luck. We just published a full 24-hour course where you'll build a complete tournament tracker app from start to finish -  including planning, database design, and error handling (24 hour watch): https://www.freecodecamp.org/news/c-sharp-24-hour-course
 
@@ -2599,8 +2570,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-04-05 19:09:18+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn SQL with this free 4-hour course on the popular PostgreSQL database,"[<p>Here are this week's five links that are worth your time:
+"
+2019-04-05 19:09:18+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn SQL with this free 4-hour course on the popular PostgreSQL database,"Here are this week's five links that are worth your time:
 
 1. Learn SQL with this free 4-hour course on the popular PostgreSQL database. You'll learn Queries, Joins, Aggregations, and other important concepts (4 hour watch): https://www.freecodecamp.org/news/postgresql-full-course
 
@@ -2627,8 +2598,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-03-15 10:29:43+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own iPhone app and Android app at the same time using JavaScript,"[<p>Here are this week's five links that are worth your time:
+"
+2019-03-15 10:29:43+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own iPhone app and Android app at the same time using JavaScript,"Here are this week's five links that are worth your time:
 
 1. How to build your own iPhone and Android app from a single JavaScript codebase by using React Native - a powerful tool that turns websites into mobile apps (4 hour watch): https://www.freecodecamp.org/news/create-an-app-that-works-on-ios-android-and-the-web-with-react-native-web
 
@@ -2655,8 +2626,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-03-08 19:01:34+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to code like a pro - learn advanced programming skills in this free 2-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-03-08 19:01:34+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to code like a pro - learn advanced programming skills in this free 2-hour course,"Here are this week's five links that are worth your time:
 
 1. How to code like a pro - learn advanced programming concepts from a freeCodeCamp graduate who's now working as a software engineer (2 hour watch): https://www.freecodecamp.org/news/how-to-code-like-a-pro
 
@@ -2683,8 +2654,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-02-28 18:48:54+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to code your own Double Dragon-style fighting game - a free Unity 3D course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-02-28 18:48:54+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to code your own Double Dragon-style fighting game - a free Unity 3D course,"Here are this week's five links that are worth your time:
 
 1. How to code your own Double Dragon-style fighting game - a free Unity 3D course (5 hour watch): https://www.freecodecamp.org/news/create-a-beat-em-up-game-in-unity
 
@@ -2712,8 +2683,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-02-22 08:26:02+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to solve algorithm questions at job interviews - a free 4-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-02-22 08:26:02+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to solve algorithm questions at job interviews - a free 4-hour course,"Here are this week's five links that are worth your time:
 
 1. How to solve algorithm challenges in job interviews - a free 4-hour course.  This is taught using Python, which is similar to JavaScript and also worth learning.  (4 hour watch): https://www.freecodecamp.org/news/python-algorithms-for-job-interviews
 
@@ -2740,8 +2711,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-02-14 20:48:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn back-end development with Node.js and Express with this free in-depth course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-02-14 20:48:29+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn back-end development with Node.js and Express with this free in-depth course,"Here are this week's five links that are worth your time:
 
 1. Learn back end development with Node.js and Express using this free in-depth course (2.5 hour watch): https://www.freecodecamp.org/news/learn-express-js-in-this-complete-course
 
@@ -2768,8 +2739,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-02-07 13:17:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What's the difference between a library and a framework?,"[<p>Here are this week's five links that are worth your time:
+"
+2019-02-07 13:17:49+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,What's the difference between a library and a framework?,"Here are this week's five links that are worth your time:
 
 1. What's the difference between a library and a framework? (4 minute read): https://medium.freecodecamp.org/bd133054023f
 
@@ -2796,8 +2767,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-02-01 12:03:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python this weekend - a full free course from Harvard and freeCodeCamp,"[<p>Here are this week's five links that are worth your time:
+"
+2019-02-01 12:03:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn Python this weekend - a full free course from Harvard and freeCodeCamp,"Here are this week's five links that are worth your time:
 
 1. Python is a great programming language to learn once you feel comfortable with JavaScript. Here's Harvard's Intro to Python (2 hour watch): https://www.freecodecamp.org/news/learn-python-from-harvards-cs50
 
@@ -2824,8 +2795,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-01-25 05:45:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Harvard's CS50 Intro to Computer Science course is now live on freeCodeCamp,"[<p>Here are this week's five links that are worth your time:
+"
+2019-01-25 05:45:19+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Harvard's CS50 Intro to Computer Science course is now live on freeCodeCamp,"Here are this week's five links that are worth your time:
 
 1. Harvard's CS50 Intro to Computer Science course is now free (and ad-free) on freeCodeCamp's YouTube channel. We're posting one new video each day and discussing them here (40 hour course): https://www.freecodecamp.org/forum/t/the-first-few-harvard-cs50-videos-are-now-live/253738
 
@@ -2852,8 +2823,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-01-17 17:45:13+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own e-commerce website from scratch with React - full free 6-hour course,"[<p>Here are this week's five links that are worth your time:
+"
+2019-01-17 17:45:13+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,How to build your own e-commerce website from scratch with React - full free 6-hour course,"Here are this week's five links that are worth your time:
 
 1. How to build your own e-commerce website from scratch with React, and how to host it for free using Netlify (6 hour watch): https://www.freecodecamp.org/news/react-tutorial-ecomerce-site
 
@@ -2880,8 +2851,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2019-01-10 17:19:18+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The React Handbook - a massive free guide to building web apps with ReactJS,"[<p>Here are this week's five links that are worth your time:
+"
+2019-01-10 17:19:18+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,The React Handbook - a massive free guide to building web apps with ReactJS,"Here are this week's five links that are worth your time:
 
 1. The React Handbook - a massive free guide to building web applications with ReactJS (116 minute read): https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795
 
@@ -2908,8 +2879,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2018-12-20 22:09:04+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React.js - a free 5-hour course for beginners,"[<p>This is my final ""links worth your time"" list for 2018. Happy Holidays!
+"
+2018-12-20 22:09:04+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn React.js - a free 5-hour course for beginners,"This is my final ""links worth your time"" list for 2018. Happy Holidays!
 
 Here are this week's five links that are worth your time:
 
@@ -2933,8 +2904,8 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
-2018-12-13 12:25:58+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn JavaScript - our free 134-part video course for beginners,"[<p>Here are this week's five links that are worth your time:
+"
+2018-12-13 12:25:58+00:00,Quincy Larson <quincy@freecodecamp.org>,malvisbid@gmail.com,Learn JavaScript - our free 134-part video course for beginners,"Here are this week's five links that are worth your time:
 
 1. Learn JavaScript - our free 134-part video course for beginners (3.5 hour watch): https://www.freecodecamp.org/n/j4Va5cR1p
 
@@ -2959,4 +2930,4 @@ Teacher at freeCodeCamp.org
 
 If these emails aren't worth your time, you can turn them off: https://www.freecodecamp.org/ue/YSTttLxqo1nneGosGnvB
 
-</p>]"
+"
