@@ -1,4 +1,4 @@
-This is a stand alone demo, hence, all necessary files are within this (kafka-connect) folder.
+This is a stand alone demo of what was submitted. All necessary (submitted) files are within this (kafka-connect) folder.
 
 The demo consists of:
 - Accessing users mail inbox using the IMAP Kafka Connector.
@@ -15,7 +15,6 @@ Python version 3
   - Includes Docker Engine, Docker CLI client and Docker Compose by default.
 
 [Visual Studio Code](https://code.visualstudio.com/download) (Optional)
-
 
 
 ## How to run:
@@ -90,7 +89,7 @@ Python version 3
     
     If unsuccessful, you can debug using the Kafka-Connect logs from docker desktop, which can be accessed by simply pressing the Kafka Connect container.
 
-9.  'LDA Model.ipynb' notebook, has the model we used, tested on our custom dataset. It also has the implementation of saving the resulting emails as PDF's. 
+9.  'LDA-Model.ipynb' notebook, has the model we used, tested on our custom dataset. It also has the implementation of saving the resulting emails as PDF's. 
 
 10. [Link](https://github.com/JackaBoss/SEGP-Email-Database-System/tree/mondoDB-version-of-kafka) to database teams work on MongoDB database.
 
